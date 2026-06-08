@@ -1,0 +1,2199 @@
+{
+  "report_date": "2026-06-08",
+  "data_time": "2026-06-08 13:21:41",
+  "market_summary": {
+    "candidate_count": 12,
+    "theme_count": 4
+  },
+  "market_style": {
+    "market_style": "题材风格",
+    "confidence": "中",
+    "market_temperature": 72.57,
+    "reasons": [
+      "主题热度和技术评分较高，题材扩散明显。"
+    ]
+  },
+  "sector_rotation": {
+    "leading_sectors": [
+      "存储芯片",
+      "能源电力"
+    ],
+    "starting_sectors": [],
+    "fading_sectors": [],
+    "sector_rankings": [
+      {
+        "sector_theme": "存储芯片",
+        "candidate_count": 4,
+        "avg_total_score": 63.65,
+        "avg_5d_proxy": -0.07,
+        "avg_10d_proxy": -0.07,
+        "avg_20d_proxy": 28.0,
+        "heat_score": 85.0,
+        "rotation_score": 75.54
+      },
+      {
+        "sector_theme": "能源电力",
+        "candidate_count": 2,
+        "avg_total_score": 64.0,
+        "avg_5d_proxy": 0.17,
+        "avg_10d_proxy": 0.17,
+        "avg_20d_proxy": 31.0,
+        "heat_score": 80.0,
+        "rotation_score": 74.38
+      },
+      {
+        "sector_theme": "先进封装",
+        "candidate_count": 2,
+        "avg_total_score": 63.6,
+        "avg_5d_proxy": -3.18,
+        "avg_10d_proxy": -3.18,
+        "avg_20d_proxy": 31.0,
+        "heat_score": 80.0,
+        "rotation_score": 73.71
+      },
+      {
+        "sector_theme": "AI算力",
+        "candidate_count": 4,
+        "avg_total_score": 62.75,
+        "avg_5d_proxy": -1.58,
+        "avg_10d_proxy": -1.58,
+        "avg_20d_proxy": 22.0,
+        "heat_score": 85.0,
+        "rotation_score": 73.13
+      }
+    ]
+  },
+  "sector_rankings": [
+    {
+      "sector_theme": "能源电力",
+      "candidate_count": 2,
+      "avg_score": 64.0
+    },
+    {
+      "sector_theme": "存储芯片",
+      "candidate_count": 4,
+      "avg_score": 63.65
+    },
+    {
+      "sector_theme": "先进封装",
+      "candidate_count": 2,
+      "avg_score": 63.6
+    },
+    {
+      "sector_theme": "AI算力",
+      "candidate_count": 4,
+      "avg_score": 62.75
+    }
+  ],
+  "top_by_sector": {
+    "AI算力": [
+      {
+        "code": "000063",
+        "name": "中兴通讯",
+        "sector_theme": "AI算力",
+        "industry": "通信设备",
+        "close": 44.52,
+        "change_pct": 0.16,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 85.0,
+        "total_score": 65.0,
+        "rank": 1,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "42.78-44.97",
+        "watch_price": "43.65",
+        "stop_loss": "40.25",
+        "resistance_1": "45.19",
+        "resistance_2": "45.19",
+        "positive_reasons": [
+          "命中重点方向：AI算力",
+          "同主题候选数量充足",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      },
+      {
+        "code": "300308",
+        "name": "中际旭创",
+        "sector_theme": "AI算力",
+        "industry": "光模块",
+        "close": 1161.49,
+        "change_pct": -1.57,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 85.0,
+        "total_score": 65.0,
+        "rank": 2,
+        "rank_change": null,
+        "status": "持有",
+        "entry_zone": "1088.94-1173.10",
+        "watch_price": "1111.16",
+        "stop_loss": "819.67",
+        "resistance_1": "1320.0",
+        "resistance_2": "1320.0",
+        "positive_reasons": [
+          "命中重点方向：AI算力",
+          "同主题候选数量充足",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为持有。",
+            "summary": "技术形态偏强，当前状态为持有。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      },
+      {
+        "code": "600406",
+        "name": "国电南瑞",
+        "sector_theme": "AI算力",
+        "industry": "电网设备",
+        "close": 20.11,
+        "change_pct": 0.2,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 85.0,
+        "total_score": 65.0,
+        "rank": 4,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "19.32-20.31",
+        "watch_price": "19.71",
+        "stop_loss": "18.18",
+        "resistance_1": "20.41",
+        "resistance_2": "20.41",
+        "positive_reasons": [
+          "命中重点方向：AI算力",
+          "同主题候选数量充足",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      }
+    ],
+    "存储芯片": [
+      {
+        "code": "600584",
+        "name": "长电科技",
+        "sector_theme": "存储芯片",
+        "industry": "封测",
+        "close": 58.05,
+        "change_pct": 0.19,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 85.0,
+        "total_score": 65.0,
+        "rank": 3,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "55.62-58.63",
+        "watch_price": "56.76",
+        "stop_loss": "52.03",
+        "resistance_1": "58.92",
+        "resistance_2": "58.92",
+        "positive_reasons": [
+          "命中重点方向：存储芯片",
+          "同主题候选数量充足",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      },
+      {
+        "code": "603986",
+        "name": "兆易创新",
+        "sector_theme": "存储芯片",
+        "industry": "半导体存储",
+        "close": 476.57,
+        "change_pct": -2.34,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 42.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 85.0,
+        "total_score": 64.2,
+        "rank": 5,
+        "rank_change": null,
+        "status": "持有",
+        "entry_zone": "442.35-481.34",
+        "watch_price": "451.38",
+        "stop_loss": "331.1",
+        "resistance_1": "552.82",
+        "resistance_2": "552.82",
+        "positive_reasons": [
+          "命中重点方向：存储芯片",
+          "同主题候选数量充足",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "主力资金指标偏弱",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为持有。",
+            "summary": "技术形态偏强，当前状态为持有。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "看空",
+            "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 2,
+            "neutral_votes": 2,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察或回避",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      },
+      {
+        "code": "300223",
+        "name": "北京君正",
+        "sector_theme": "存储芯片",
+        "industry": "存储芯片",
+        "close": 150.22,
+        "change_pct": 7.79,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 42.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 85.0,
+        "total_score": 64.2,
+        "rank": 6,
+        "rank_change": null,
+        "status": "持有",
+        "entry_zone": "142.13-151.72",
+        "watch_price": "145.03",
+        "stop_loss": "123.5",
+        "resistance_1": "175.98",
+        "resistance_2": "175.98",
+        "positive_reasons": [
+          "命中重点方向：存储芯片",
+          "同主题候选数量充足",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "主力资金指标偏弱",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为持有。",
+            "summary": "技术形态偏强，当前状态为持有。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "看空",
+            "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 2,
+            "neutral_votes": 2,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察或回避",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      }
+    ],
+    "先进封装": [
+      {
+        "code": "002371",
+        "name": "北方华创",
+        "sector_theme": "先进封装",
+        "industry": "半导体设备",
+        "close": 27.29,
+        "change_pct": 0.18,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 80.0,
+        "total_score": 64.0,
+        "rank": 7,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "26.22-27.56",
+        "watch_price": "26.76",
+        "stop_loss": "24.67",
+        "resistance_1": "27.7",
+        "resistance_2": "27.7",
+        "positive_reasons": [
+          "命中重点方向：先进封装",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "先进封装主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      },
+      {
+        "code": "002156",
+        "name": "通富微电",
+        "sector_theme": "先进封装",
+        "industry": "封测",
+        "close": 62.47,
+        "change_pct": -6.54,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 42.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 80.0,
+        "total_score": 63.2,
+        "rank": 10,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "61.22-64.95",
+        "watch_price": "64.3",
+        "stop_loss": "51.09",
+        "resistance_1": "78.48",
+        "resistance_2": "78.48",
+        "positive_reasons": [
+          "命中重点方向：先进封装",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "缩量回踩 MA20 附近",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "主力资金指标偏弱",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "看空",
+            "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "先进封装主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 2,
+            "neutral_votes": 2,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察或回避",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      }
+    ],
+    "能源电力": [
+      {
+        "code": "600905",
+        "name": "三峡能源",
+        "sector_theme": "能源电力",
+        "industry": "电力",
+        "close": 55.38,
+        "change_pct": 0.18,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 80.0,
+        "total_score": 64.0,
+        "rank": 8,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "53.11-55.93",
+        "watch_price": "54.2",
+        "stop_loss": "49.78",
+        "resistance_1": "56.21",
+        "resistance_2": "56.21",
+        "positive_reasons": [
+          "命中重点方向：能源电力",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "能源电力主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "sector_theme": "能源电力",
+        "industry": "储能",
+        "close": 59.0,
+        "change_pct": 0.17,
+        "technical_score": 81.0,
+        "fundamental_score": 50.0,
+        "valuation_score": 50.0,
+        "capital_flow_score": 50.0,
+        "news_risk_score": 55.0,
+        "sector_heat_score": 80.0,
+        "total_score": 64.0,
+        "rank": 9,
+        "rank_change": null,
+        "status": "低吸",
+        "entry_zone": "56.63-59.59",
+        "watch_price": "57.79",
+        "stop_loss": "53.18",
+        "resistance_1": "59.88",
+        "resistance_2": "59.88",
+        "positive_reasons": [
+          "命中重点方向：能源电力",
+          "行业/概念信息可用于交叉验证",
+          "财务数据缺失，使用中性分",
+          "估值数据缺失，使用中性分",
+          "资金流数据缺失，使用中性分",
+          "未发现已获取标题中的重大负面关键词",
+          "日线站上 MA20",
+          "日线站上 MA60",
+          "RSI 位于健康区间",
+          "周线多头排列",
+          "周线 MACD 偏强",
+          "月线趋势转强"
+        ],
+        "negative_reasons": [
+          "财务数据明显缺失，需要人工复核",
+          "缺少 PE/PB/PS，需要人工复核",
+          "资金流数据不完整",
+          "消息面风险：数据不完整，需要人工复核",
+          "日线 MACD 走弱"
+        ],
+        "risk_flags": [],
+        "agent_reviews": {
+          "fundamental_agent": {
+            "decision": "看空",
+            "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+            "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+            "risks": [
+              "财务数据明显缺失，需要人工复核"
+            ]
+          },
+          "technical_agent": {
+            "decision": "看多",
+            "reason": "技术形态偏强，当前状态为低吸。",
+            "summary": "技术形态偏强，当前状态为低吸。"
+          },
+          "valuation_agent": {
+            "decision": "中性",
+            "reason": "估值处于中性观察区间。",
+            "summary": "估值处于中性观察区间。"
+          },
+          "news_risk_agent": {
+            "decision": "中性",
+            "reason": "消息面数据不完整，需要人工复核。",
+            "summary": "消息面数据不完整，需要人工复核。",
+            "risk_flags": []
+          },
+          "capital_flow_agent": {
+            "decision": "中性",
+            "reason": "资金流数据不足或信号不明确，按中性处理。"
+          },
+          "market_style_agent": {
+            "decision": "看多",
+            "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+          },
+          "sector_rotation_agent": {
+            "decision": "看多",
+            "reason": "能源电力主题热度较高，具备轮动跟踪价值。"
+          },
+          "final_committee_agent": {
+            "bullish_votes": 3,
+            "bearish_votes": 1,
+            "neutral_votes": 3,
+            "disagreement_points": [
+              "基本面、技术面、估值或消息面存在多空分歧。"
+            ],
+            "final_decision": "观察",
+            "confidence_level": "低",
+            "contrary_view": [
+              "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+              "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+              "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "overall_top10": [
+    {
+      "code": "000063",
+      "name": "中兴通讯",
+      "sector_theme": "AI算力",
+      "industry": "通信设备",
+      "close": 44.52,
+      "change_pct": 0.16,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 85.0,
+      "total_score": 65.0,
+      "rank": 1,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "42.78-44.97",
+      "watch_price": "43.65",
+      "stop_loss": "40.25",
+      "resistance_1": "45.19",
+      "resistance_2": "45.19",
+      "positive_reasons": [
+        "命中重点方向：AI算力",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "sector_theme": "AI算力",
+      "industry": "光模块",
+      "close": 1161.49,
+      "change_pct": -1.57,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 85.0,
+      "total_score": 65.0,
+      "rank": 2,
+      "rank_change": null,
+      "status": "持有",
+      "entry_zone": "1088.94-1173.10",
+      "watch_price": "1111.16",
+      "stop_loss": "819.67",
+      "resistance_1": "1320.0",
+      "resistance_2": "1320.0",
+      "positive_reasons": [
+        "命中重点方向：AI算力",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为持有。",
+          "summary": "技术形态偏强，当前状态为持有。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "sector_theme": "存储芯片",
+      "industry": "封测",
+      "close": 58.05,
+      "change_pct": 0.19,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 85.0,
+      "total_score": 65.0,
+      "rank": 3,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "55.62-58.63",
+      "watch_price": "56.76",
+      "stop_loss": "52.03",
+      "resistance_1": "58.92",
+      "resistance_2": "58.92",
+      "positive_reasons": [
+        "命中重点方向：存储芯片",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "600406",
+      "name": "国电南瑞",
+      "sector_theme": "AI算力",
+      "industry": "电网设备",
+      "close": 20.11,
+      "change_pct": 0.2,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 85.0,
+      "total_score": 65.0,
+      "rank": 4,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "19.32-20.31",
+      "watch_price": "19.71",
+      "stop_loss": "18.18",
+      "resistance_1": "20.41",
+      "resistance_2": "20.41",
+      "positive_reasons": [
+        "命中重点方向：AI算力",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "sector_theme": "存储芯片",
+      "industry": "半导体存储",
+      "close": 476.57,
+      "change_pct": -2.34,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 42.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 85.0,
+      "total_score": 64.2,
+      "rank": 5,
+      "rank_change": null,
+      "status": "持有",
+      "entry_zone": "442.35-481.34",
+      "watch_price": "451.38",
+      "stop_loss": "331.1",
+      "resistance_1": "552.82",
+      "resistance_2": "552.82",
+      "positive_reasons": [
+        "命中重点方向：存储芯片",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "主力资金指标偏弱",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为持有。",
+          "summary": "技术形态偏强，当前状态为持有。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "看空",
+          "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 2,
+          "neutral_votes": 2,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察或回避",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "300223",
+      "name": "北京君正",
+      "sector_theme": "存储芯片",
+      "industry": "存储芯片",
+      "close": 150.22,
+      "change_pct": 7.79,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 42.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 85.0,
+      "total_score": 64.2,
+      "rank": 6,
+      "rank_change": null,
+      "status": "持有",
+      "entry_zone": "142.13-151.72",
+      "watch_price": "145.03",
+      "stop_loss": "123.5",
+      "resistance_1": "175.98",
+      "resistance_2": "175.98",
+      "positive_reasons": [
+        "命中重点方向：存储芯片",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "主力资金指标偏弱",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为持有。",
+          "summary": "技术形态偏强，当前状态为持有。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "看空",
+          "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 2,
+          "neutral_votes": 2,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察或回避",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "002371",
+      "name": "北方华创",
+      "sector_theme": "先进封装",
+      "industry": "半导体设备",
+      "close": 27.29,
+      "change_pct": 0.18,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 80.0,
+      "total_score": 64.0,
+      "rank": 7,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "26.22-27.56",
+      "watch_price": "26.76",
+      "stop_loss": "24.67",
+      "resistance_1": "27.7",
+      "resistance_2": "27.7",
+      "positive_reasons": [
+        "命中重点方向：先进封装",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "先进封装主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "600905",
+      "name": "三峡能源",
+      "sector_theme": "能源电力",
+      "industry": "电力",
+      "close": 55.38,
+      "change_pct": 0.18,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 80.0,
+      "total_score": 64.0,
+      "rank": 8,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "53.11-55.93",
+      "watch_price": "54.2",
+      "stop_loss": "49.78",
+      "resistance_1": "56.21",
+      "resistance_2": "56.21",
+      "positive_reasons": [
+        "命中重点方向：能源电力",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "能源电力主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "sector_theme": "能源电力",
+      "industry": "储能",
+      "close": 59.0,
+      "change_pct": 0.17,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 50.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 80.0,
+      "total_score": 64.0,
+      "rank": 9,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "56.63-59.59",
+      "watch_price": "57.79",
+      "stop_loss": "53.18",
+      "resistance_1": "59.88",
+      "resistance_2": "59.88",
+      "positive_reasons": [
+        "命中重点方向：能源电力",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "资金流数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "资金流数据不完整",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "能源电力主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 1,
+          "neutral_votes": 3,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "sector_theme": "先进封装",
+      "industry": "封测",
+      "close": 62.47,
+      "change_pct": -6.54,
+      "technical_score": 81.0,
+      "fundamental_score": 50.0,
+      "valuation_score": 50.0,
+      "capital_flow_score": 42.0,
+      "news_risk_score": 55.0,
+      "sector_heat_score": 80.0,
+      "total_score": 63.2,
+      "rank": 10,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "61.22-64.95",
+      "watch_price": "64.3",
+      "stop_loss": "51.09",
+      "resistance_1": "78.48",
+      "resistance_2": "78.48",
+      "positive_reasons": [
+        "命中重点方向：先进封装",
+        "行业/概念信息可用于交叉验证",
+        "财务数据缺失，使用中性分",
+        "估值数据缺失，使用中性分",
+        "未发现已获取标题中的重大负面关键词",
+        "日线站上 MA60",
+        "RSI 位于健康区间",
+        "缩量回踩 MA20 附近",
+        "周线多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "财务数据明显缺失，需要人工复核",
+        "缺少 PE/PB/PS，需要人工复核",
+        "主力资金指标偏弱",
+        "消息面风险：数据不完整，需要人工复核",
+        "日线 MACD 走弱"
+      ],
+      "risk_flags": [],
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看空",
+          "reason": "财务数据偏弱或缺失较多，需要人工复核。",
+          "summary": "财务数据偏弱或缺失较多，需要人工复核。",
+          "risks": [
+            "财务数据明显缺失，需要人工复核"
+          ]
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "中性",
+          "reason": "消息面数据不完整，需要人工复核。",
+          "summary": "消息面数据不完整，需要人工复核。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "看空",
+          "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "先进封装主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 3,
+          "bearish_votes": 2,
+          "neutral_votes": 2,
+          "disagreement_points": [
+            "基本面、技术面、估值或消息面存在多空分歧。"
+          ],
+          "final_decision": "观察或回避",
+          "confidence_level": "低",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      }
+    }
+  ],
+  "risk_alerts": [],
+  "agent_conflicts": [
+    {
+      "code": "000063",
+      "name": "中兴通讯",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "600584",
+      "name": "长电科技",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "600406",
+      "name": "国电南瑞",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "603986",
+      "name": "兆易创新",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 2,
+      "neutral_votes": 2
+    },
+    {
+      "code": "300223",
+      "name": "北京君正",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 2,
+      "neutral_votes": 2
+    },
+    {
+      "code": "002371",
+      "name": "北方华创",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "600905",
+      "name": "三峡能源",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "300750",
+      "name": "宁德时代",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 1,
+      "neutral_votes": 3
+    },
+    {
+      "code": "002156",
+      "name": "通富微电",
+      "reasons": [
+        "基本面、技术面、估值或消息面存在多空分歧。"
+      ],
+      "bullish_votes": 3,
+      "bearish_votes": 2,
+      "neutral_votes": 2
+    }
+  ],
+  "committee_conclusion": {
+    "one_line": "Top1 中兴通讯(000063)：观察，置信度 低。",
+    "top_stock": {
+      "code": "000063",
+      "name": "中兴通讯"
+    },
+    "final_decision": "观察",
+    "confidence_level": "低",
+    "contrary_view": [
+      "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+      "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+      "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+    ]
+  },
+  "data_quality": {
+    "missing_fields": [],
+    "failed_sources": [],
+    "warnings": []
+  },
+  "methodology": {
+    "factor_weights": {
+      "sector_heat_score": 20.0,
+      "fundamental_score": 25.0,
+      "valuation_score": 15.0,
+      "technical_score": 25.0,
+      "capital_flow_score": 10.0,
+      "news_risk_score": 5.0
+    },
+    "scoring_version": "v1.0"
+  }
+}
