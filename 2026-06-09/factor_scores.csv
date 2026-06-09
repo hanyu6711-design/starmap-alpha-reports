@@ -1,0 +1,12 @@
+﻿code,name,sector_theme,technical_score,fundamental_score,valuation_score,capital_flow_score,news_risk_score,sector_heat_score,total_score,available_factor_count,missing_factor_count,score_confidence,missing_factors,rank
+300308,中际旭创,AI算力,67.1,80.0,,55.0,58.0,85.0,73.15,5,1,高,['valuation_score'],1
+688008,澜起科技,AI算力,55.1,70.0,,55.0,58.0,85.0,66.68,5,1,高,['valuation_score'],2
+603986,兆易创新,存储芯片,61.1,70.0,,55.0,30.0,80.0,65.62,5,1,高,['valuation_score'],3
+300223,北京君正,存储芯片,65.1,60.0,,55.0,58.0,80.0,65.5,5,1,高,['valuation_score'],4
+002156,通富微电,AI算力,66.1,52.0,,55.0,58.0,85.0,64.62,5,1,高,['valuation_score'],5
+600584,长电科技,AI算力,61.1,56.0,,55.0,58.0,85.0,64.32,5,1,高,['valuation_score'],6
+000063,中兴通讯,AI算力,68.4,40.0,,56.5,58.0,85.0,61.94,5,1,高,['valuation_score'],7
+300750,宁德时代,能源电力,38.1,62.0,,46.0,58.0,85.0,58.26,5,1,高,['valuation_score'],8
+600905,三峡能源,能源电力,47.3,48.0,,55.0,58.0,85.0,57.91,5,1,高,['valuation_score'],9
+688041,海光信息,AI算力,34.7,60.0,,55.0,58.0,85.0,57.74,5,1,高,['valuation_score'],10
+600406,国电南瑞,能源电力,23.6,44.0,,56.5,58.0,85.0,49.94,5,1,高,['valuation_score'],11
