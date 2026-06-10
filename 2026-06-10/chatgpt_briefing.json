@@ -92,13 +92,29 @@
         "return_20d": 9.006,
         "return_60d": 32.3045,
         "volume_ratio_20d": 1.374,
+        "atr14": 14.03,
         "daily_signal": "震荡整理",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线分歧",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "等待确认"
+        ],
         "entry_reason": "技术信号分歧较大，等待进一步确认",
-        "stop_loss": "124.12",
-        "resistance_1": "175.98",
-        "resistance_2": "175.98"
+        "trade_plan": {
+          "watch_price": "145.65",
+          "entry_zone": "138.63-166.90",
+          "stop_loss": "122.18",
+          "resistance_1": "187.95",
+          "resistance_2": "208.99",
+          "atr14": "14.03",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "122.18",
+        "resistance_1": "187.95",
+        "resistance_2": "208.99"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -136,9 +152,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 62.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 1.3740039620607014,
         "volume_ratio_5d": 1.2657914538038098,
@@ -155,6 +175,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -165,12 +186,12 @@
       },
       "rank": 1,
       "rank_change": null,
-      "status": "观察",
-      "entry_zone": "143.46-162.29",
+      "status": "低吸",
+      "entry_zone": "138.63-166.90",
       "watch_price": "145.65",
-      "stop_loss": "124.12",
-      "resistance_1": "175.98",
-      "resistance_2": "175.98",
+      "stop_loss": "122.18",
+      "resistance_1": "187.95",
+      "resistance_2": "208.99",
       "positive_reasons": [
         "命中重点方向：存储芯片",
         "同主题候选数量充足",
@@ -226,9 +247,9 @@
           "risks": []
         },
         "technical_agent": {
-          "decision": "中性",
-          "reason": "技术面尚未形成清晰买点。",
-          "summary": "技术面尚未形成清晰买点。"
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
         },
         "valuation_agent": {
           "decision": "中性",
@@ -254,13 +275,13 @@
           "reason": "存储芯片主题热度较高，具备轮动跟踪价值。"
         },
         "final_committee_agent": {
-          "bullish_votes": 3,
+          "bullish_votes": 4,
           "bearish_votes": 0,
-          "neutral_votes": 4,
+          "neutral_votes": 3,
           "disagreement_points": [
-            "状态为观察，投委会结论降级为观察。"
+            "投委会结论按统一决策树同步为低吸。"
           ],
-          "final_decision": "观察",
+          "final_decision": "低吸",
           "confidence_level": "高",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -270,8 +291,23 @@
         }
       },
       "total_score_uncapped": null,
-      "decision_reason": "观察：技术信号分歧较大，等待进一步确认",
-      "risk_reason": "ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核"
+      "decision_reason": "低吸：技术信号分歧较大，等待进一步确认",
+      "risk_reason": "ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核",
+      "sector_rank": 1,
+      "why_selected": [
+        "所属方向热度排名第1，主题为存储芯片",
+        "基本面评分81.0，ROE 2.5，净利润同比 331.6",
+        "技术形态：日线分歧，周线多头，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "145.65",
+        "entry_zone": "138.63-166.90",
+        "stop_loss": "122.18",
+        "target_1": "187.95",
+        "target_2": "208.99",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "综合评分>=70 => 低吸；当前风险：ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核"
     },
     {
       "code": "603986",
@@ -302,13 +338,29 @@
         "return_20d": 41.8651,
         "return_60d": 78.2534,
         "volume_ratio_20d": 0.7439,
+        "atr14": 41.2071,
         "daily_signal": "震荡整理",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线分歧",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "等待确认"
+        ],
         "entry_reason": "价格偏离均线过大或指标过热",
-        "stop_loss": "333.50",
-        "resistance_1": "552.82",
-        "resistance_2": "552.82"
+        "trade_plan": {
+          "watch_price": "458.64",
+          "entry_zone": "438.03-521.10",
+          "stop_loss": "313.86",
+          "resistance_1": "582.91",
+          "resistance_2": "644.73",
+          "atr14": "41.21",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "313.86",
+        "resistance_1": "582.91",
+        "resistance_2": "644.73"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -346,9 +398,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 50.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.7438667501135697,
         "volume_ratio_5d": 0.8240149314333689,
@@ -367,6 +423,15 @@
         "matched_keywords": [
           "减持"
         ],
+        "risk_events": [
+          {
+            "event_type": "减持",
+            "event_time": "数据缺失",
+            "impact_level": "中",
+            "risk_score": 45,
+            "evidence": "长鑫科技董事长，减持603986"
+          }
+        ],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；命中轻中度风险关键词：减持",
         "positive_keywords": [
@@ -381,11 +446,11 @@
       "rank": 2,
       "rank_change": null,
       "status": "回避",
-      "entry_zone": "451.76-508.01",
+      "entry_zone": "438.03-521.10",
       "watch_price": "458.64",
-      "stop_loss": "333.50",
-      "resistance_1": "552.82",
-      "resistance_2": "552.82",
+      "stop_loss": "313.86",
+      "resistance_1": "582.91",
+      "resistance_2": "644.73",
       "positive_reasons": [
         "命中重点方向：存储芯片",
         "同主题候选数量充足",
@@ -477,9 +542,9 @@
           "neutral_votes": 2,
           "disagreement_points": [
             "基本面、技术面、估值或消息面存在多空分歧。",
-            "状态为回避，投委会不能给出重点跟踪结论。"
+            "投委会结论按统一决策树同步为回避。"
           ],
-          "final_decision": "观察或回避",
+          "final_decision": "回避",
           "confidence_level": "低",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -490,7 +555,22 @@
       },
       "total_score_uncapped": null,
       "decision_reason": "回避：减持；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核",
-      "risk_reason": "减持；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核"
+      "risk_reason": "减持；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核",
+      "sector_rank": 1,
+      "why_selected": [
+        "所属方向热度排名第1，主题为存储芯片",
+        "基本面评分100.0，ROE 6.1，净利润同比 522.8",
+        "技术形态：日线分歧，周线多头，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "458.64",
+        "entry_zone": "438.03-521.10",
+        "stop_loss": "313.86",
+        "target_1": "582.91",
+        "target_2": "644.73",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "重大风险或消息风险优先 => 回避；当前风险：减持；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核"
     },
     {
       "code": "688008",
@@ -521,13 +601,29 @@
         "return_20d": -1.7865,
         "return_60d": 57.8104,
         "volume_ratio_20d": 0.6691,
+        "atr14": 20.5293,
         "daily_signal": "震荡整理",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线分歧",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "等待确认"
+        ],
         "entry_reason": "技术信号分歧较大，等待进一步确认",
+        "trade_plan": {
+          "watch_price": "253.85",
+          "entry_zone": "226.14-264.12",
+          "stop_loss": "183.63",
+          "resistance_1": "288.79",
+          "resistance_2": "308.25",
+          "atr14": "20.53",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
         "stop_loss": "183.63",
         "resistance_1": "288.79",
-        "resistance_2": "288.79"
+        "resistance_2": "308.25"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -565,9 +661,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 46.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.669132907630738,
         "volume_ratio_5d": 0.7781688163229269,
@@ -584,6 +684,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -597,11 +698,11 @@
       "rank": 3,
       "rank_change": null,
       "status": "观察",
-      "entry_zone": "232.85-257.66",
+      "entry_zone": "226.14-264.12",
       "watch_price": "253.85",
       "stop_loss": "183.63",
       "resistance_1": "288.79",
-      "resistance_2": "288.79",
+      "resistance_2": "308.25",
       "positive_reasons": [
         "命中重点方向：存储芯片",
         "同主题候选数量充足",
@@ -686,7 +787,8 @@
           "bearish_votes": 1,
           "neutral_votes": 3,
           "disagreement_points": [
-            "基本面、技术面、估值或消息面存在多空分歧。"
+            "基本面、技术面、估值或消息面存在多空分歧。",
+            "投委会结论按统一决策树同步为观察。"
           ],
           "final_decision": "观察",
           "confidence_level": "低",
@@ -699,7 +801,22 @@
       },
       "total_score_uncapped": null,
       "decision_reason": "观察：技术信号分歧较大，等待进一步确认",
-      "risk_reason": "PE 高于80，估值风险较高；PB 高于10，安全边际偏弱；消息面数据不完整，需要人工复核"
+      "risk_reason": "PE 高于80，估值风险较高；PB 高于10，安全边际偏弱；消息面数据不完整，需要人工复核",
+      "sector_rank": 1,
+      "why_selected": [
+        "所属方向热度排名第1，主题为存储芯片",
+        "基本面评分100.0，ROE 5.4，净利润同比 61.3",
+        "技术形态：日线分歧，周线多头，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "253.85",
+        "entry_zone": "226.14-264.12",
+        "stop_loss": "183.63",
+        "target_1": "288.79",
+        "target_2": "308.25",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "综合评分>=60 => 观察；当前风险：PE 高于80，估值风险较高；PB 高于10，安全边际偏弱；消息面数据不完整，需要人工复核"
     },
     {
       "code": "002156",
@@ -730,13 +847,30 @@
         "return_20d": 8.468,
         "return_60d": 37.0559,
         "volume_ratio_20d": 0.694,
+        "atr14": 5.3157,
         "daily_signal": "缩量回踩",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线均线附近震荡",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "缩量回踩",
+          "右侧启动"
+        ],
         "entry_reason": "价格回踩均线附近且周线结构未破坏",
+        "trade_plan": {
+          "watch_price": "64.54",
+          "entry_zone": "61.77-67.20",
+          "stop_loss": "51.37",
+          "resistance_1": "78.48",
+          "resistance_2": "83.04",
+          "atr14": "5.32",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
         "stop_loss": "51.37",
         "resistance_1": "78.48",
-        "resistance_2": "78.48"
+        "resistance_2": "83.04"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -772,9 +906,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 46.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.6940155366046014,
         "volume_ratio_5d": 0.8241756119492573,
@@ -793,6 +931,15 @@
         "matched_keywords": [
           "质押"
         ],
+        "risk_events": [
+          {
+            "event_type": "质押",
+            "event_time": "数据缺失",
+            "impact_level": "中",
+            "risk_score": 45,
+            "evidence": "通富微电：控股股东解除质押430万股，质押清零"
+          }
+        ],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；命中轻中度风险关键词：质押",
         "positive_keywords": [
@@ -806,11 +953,11 @@
       "rank": 4,
       "rank_change": null,
       "status": "回避",
-      "entry_zone": "63.46-65.51",
+      "entry_zone": "61.77-67.20",
       "watch_price": "64.54",
       "stop_loss": "51.37",
       "resistance_1": "78.48",
-      "resistance_2": "78.48",
+      "resistance_2": "83.04",
       "positive_reasons": [
         "命中重点方向：先进封装",
         "行业/概念信息可用于交叉验证",
@@ -900,9 +1047,9 @@
           "neutral_votes": 2,
           "disagreement_points": [
             "基本面、技术面、估值或消息面存在多空分歧。",
-            "状态为回避，投委会不能给出重点跟踪结论。"
+            "投委会结论按统一决策树同步为回避。"
           ],
-          "final_decision": "观察或回避",
+          "final_decision": "回避",
           "confidence_level": "低",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -913,7 +1060,22 @@
       },
       "total_score_uncapped": null,
       "decision_reason": "回避：质押；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核",
-      "risk_reason": "质押；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核"
+      "risk_reason": "质押；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核",
+      "sector_rank": 2,
+      "why_selected": [
+        "所属方向热度排名第2，主题为先进封装",
+        "基本面评分73.0，ROE 2.1，净利润同比 224.5",
+        "技术形态：日线均线附近震荡，周线多头，缩量回踩"
+      ],
+      "trade_plan": {
+        "watch_price": "64.54",
+        "entry_zone": "61.77-67.20",
+        "stop_loss": "51.37",
+        "target_1": "78.48",
+        "target_2": "83.04",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "重大风险或消息风险优先 => 回避；当前风险：质押；PE 处于40-80区间，估值偏贵；消息面数据不完整，需要人工复核"
     },
     {
       "code": "300308",
@@ -967,9 +1129,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": null,
+        "northbound_score": null,
+        "institution_score": null,
         "turnover_rate": null,
         "volume_ratio": null,
         "volume_ratio_5d": null,
@@ -986,6 +1152,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -1086,7 +1253,8 @@
           "bearish_votes": 0,
           "neutral_votes": 5,
           "disagreement_points": [
-            "基本面或估值因子缺失，不能给出重点跟踪结论。"
+            "基本面或估值因子缺失，不能给出重点跟踪结论。",
+            "投委会结论按统一决策树同步为观察。"
           ],
           "final_decision": "观察",
           "confidence_level": "低",
@@ -1099,7 +1267,21 @@
       },
       "total_score_uncapped": 88.6,
       "decision_reason": "观察：命中重点方向：AI算力；同主题候选数量充足",
-      "risk_reason": "估值字段缺失，已从总分加权中剔除；资金面数据不足，已从总分加权中剔除；消息面数据不完整，需要人工复核"
+      "risk_reason": "估值字段缺失，已从总分加权中剔除；资金面数据不足，已从总分加权中剔除；消息面数据不完整，需要人工复核",
+      "sector_rank": 3,
+      "why_selected": [
+        "所属方向热度排名第3，主题为AI算力",
+        "基本面评分100.0，ROE 17.5，净利润同比 262.3"
+      ],
+      "trade_plan": {
+        "watch_price": "数据缺失",
+        "entry_zone": "数据缺失",
+        "stop_loss": "数据缺失",
+        "target_1": "数据缺失",
+        "target_2": "数据缺失",
+        "basis": "ATR14、MA20、前高压力位"
+      },
+      "decision_tree": "综合评分>=60 => 观察；当前风险：估值字段缺失，已从总分加权中剔除；资金面数据不足，已从总分加权中剔除；消息面数据不完整，需要人工复核"
     },
     {
       "code": "600584",
@@ -1130,13 +1312,29 @@
         "return_20d": 36.2962,
         "return_60d": 60.8417,
         "volume_ratio_20d": 0.6414,
+        "atr14": 7.2121,
         "daily_signal": "震荡整理",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线均线附近震荡",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "右侧启动"
+        ],
         "entry_reason": "价格偏离均线过大或指标过热",
-        "stop_loss": "51.77",
+        "trade_plan": {
+          "watch_price": "72.43",
+          "entry_zone": "68.83-78.90",
+          "stop_loss": "48.87",
+          "resistance_1": "94.90",
+          "resistance_2": "100.53",
+          "atr14": "7.21",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "48.87",
         "resistance_1": "94.90",
-        "resistance_2": "94.90"
+        "resistance_2": "100.53"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -1173,9 +1371,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 46.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.6413594542925977,
         "volume_ratio_5d": 0.7619816191730074,
@@ -1192,6 +1394,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -1204,12 +1407,12 @@
       },
       "rank": 6,
       "rank_change": null,
-      "status": "追高风险",
-      "entry_zone": "71.35-76.42",
+      "status": "观察",
+      "entry_zone": "68.83-78.90",
       "watch_price": "72.43",
-      "stop_loss": "51.77",
+      "stop_loss": "48.87",
       "resistance_1": "94.90",
-      "resistance_2": "94.90",
+      "resistance_2": "100.53",
       "positive_reasons": [
         "命中重点方向：存储芯片",
         "同主题候选数量充足",
@@ -1262,9 +1465,9 @@
           "risks": []
         },
         "technical_agent": {
-          "decision": "看空",
-          "reason": "技术面提示追高风险，不宜激进。",
-          "summary": "技术面提示追高风险，不宜激进。"
+          "decision": "中性",
+          "reason": "技术面尚未形成清晰买点。",
+          "summary": "技术面尚未形成清晰买点。"
         },
         "valuation_agent": {
           "decision": "中性",
@@ -1291,13 +1494,13 @@
         },
         "final_committee_agent": {
           "bullish_votes": 2,
-          "bearish_votes": 1,
-          "neutral_votes": 4,
+          "bearish_votes": 0,
+          "neutral_votes": 5,
           "disagreement_points": [
-            "基本面、技术面、估值或消息面存在多空分歧。"
+            "投委会结论按统一决策树同步为观察。"
           ],
           "final_decision": "观察",
-          "confidence_level": "低",
+          "confidence_level": "高",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
             "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
@@ -1306,8 +1509,23 @@
         }
       },
       "total_score_uncapped": null,
-      "decision_reason": "追高风险：价格偏离均线过大或指标过热",
-      "risk_reason": "ROE 低于5%，资本回报偏弱；营业收入同比转负，景气度承压；PE 高于80，估值风险较高"
+      "decision_reason": "观察：价格偏离均线过大或指标过热",
+      "risk_reason": "ROE 低于5%，资本回报偏弱；营业收入同比转负，景气度承压；PE 高于80，估值风险较高",
+      "sector_rank": 1,
+      "why_selected": [
+        "所属方向热度排名第1，主题为存储芯片",
+        "基本面评分61.0，ROE 1.0，净利润同比 42.7",
+        "技术形态：日线均线附近震荡，周线多头，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "72.43",
+        "entry_zone": "68.83-78.90",
+        "stop_loss": "48.87",
+        "target_1": "94.90",
+        "target_2": "100.53",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "综合评分>=60 => 观察；当前风险：ROE 低于5%，资本回报偏弱；营业收入同比转负，景气度承压；PE 高于80，估值风险较高"
     },
     {
       "code": "002371",
@@ -1338,13 +1556,29 @@
         "return_20d": 6.1312,
         "return_60d": 33.5743,
         "volume_ratio_20d": 0.6887,
+        "atr14": 41.2536,
         "daily_signal": "缩量回踩",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线均线附近震荡",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "缩量回踩"
+        ],
         "entry_reason": "价格回踩均线附近且周线结构未破坏",
+        "trade_plan": {
+          "watch_price": "624.79",
+          "entry_zone": "596.47-645.42",
+          "stop_loss": "511.25",
+          "resistance_1": "721.60",
+          "resistance_2": "761.49",
+          "atr14": "41.25",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
         "stop_loss": "511.25",
         "resistance_1": "721.60",
-        "resistance_2": "721.60"
+        "resistance_2": "761.49"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -1380,9 +1614,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 46.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.6886813439433532,
         "volume_ratio_5d": 0.9349959394231597,
@@ -1399,6 +1637,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -1411,12 +1650,12 @@
       },
       "rank": 7,
       "rank_change": null,
-      "status": "低吸",
-      "entry_zone": "607.84-634.17",
+      "status": "观察",
+      "entry_zone": "596.47-645.42",
       "watch_price": "624.79",
       "stop_loss": "511.25",
       "resistance_1": "721.60",
-      "resistance_2": "721.60",
+      "resistance_2": "761.49",
       "positive_reasons": [
         "命中重点方向：先进封装",
         "行业/概念信息可用于交叉验证",
@@ -1499,8 +1738,10 @@
           "bullish_votes": 2,
           "bearish_votes": 0,
           "neutral_votes": 5,
-          "disagreement_points": [],
-          "final_decision": "可列入重点跟踪",
+          "disagreement_points": [
+            "投委会结论按统一决策树同步为观察。"
+          ],
+          "final_decision": "观察",
           "confidence_level": "高",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -1510,8 +1751,23 @@
         }
       },
       "total_score_uncapped": null,
-      "decision_reason": "低吸：价格回踩均线附近且周线结构未破坏",
-      "risk_reason": "ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；PB 高于10，安全边际偏弱"
+      "decision_reason": "观察：价格回踩均线附近且周线结构未破坏",
+      "risk_reason": "ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；PB 高于10，安全边际偏弱",
+      "sector_rank": 2,
+      "why_selected": [
+        "所属方向热度排名第2，主题为先进封装",
+        "基本面评分62.0，ROE 4.2，净利润同比 3.4",
+        "技术形态：日线均线附近震荡，周线多头，缩量回踩"
+      ],
+      "trade_plan": {
+        "watch_price": "624.79",
+        "entry_zone": "596.47-645.42",
+        "stop_loss": "511.25",
+        "target_1": "721.60",
+        "target_2": "761.49",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "综合评分>=60 => 观察；当前风险：ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；PB 高于10，安全边际偏弱"
     },
     {
       "code": "600905",
@@ -1542,11 +1798,28 @@
         "return_20d": -1.6667,
         "return_60d": -8.0178,
         "volume_ratio_20d": 0.6185,
+        "atr14": 0.0907,
         "daily_signal": "震荡整理",
         "weekly_signal": "回踩周线支撑",
         "monthly_signal": "低位区",
+        "daily_trend": "日线分歧",
+        "weekly_trend": "周线转弱",
+        "monthly_trend": "月线震荡",
+        "technical_setup": [
+          "低位区域",
+          "右侧启动"
+        ],
         "entry_reason": "跌破 MA60 且周线走弱",
-        "stop_loss": "4.01",
+        "trade_plan": {
+          "watch_price": "4.18",
+          "entry_zone": "4.08-4.22",
+          "stop_loss": "4.02",
+          "resistance_1": "4.43",
+          "resistance_2": "4.67",
+          "atr14": "0.09",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "4.02",
         "resistance_1": "4.43",
         "resistance_2": "4.67"
       },
@@ -1570,9 +1843,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 46.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.6185233590167856,
         "volume_ratio_5d": 0.6126651347755875,
@@ -1589,6 +1866,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -1602,9 +1880,9 @@
       "rank": 8,
       "rank_change": null,
       "status": "回避",
-      "entry_zone": "4.07-4.24",
+      "entry_zone": "4.08-4.22",
       "watch_price": "4.18",
-      "stop_loss": "4.01",
+      "stop_loss": "4.02",
       "resistance_1": "4.43",
       "resistance_2": "4.67",
       "positive_reasons": [
@@ -1691,9 +1969,9 @@
           "disagreement_points": [
             "基本面、技术面、估值或消息面存在多空分歧。",
             "基本面或估值因子缺失，不能给出重点跟踪结论。",
-            "状态为回避，投委会不能给出重点跟踪结论。"
+            "投委会结论按统一决策树同步为回避。"
           ],
-          "final_decision": "观察或回避",
+          "final_decision": "回避",
           "confidence_level": "低",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -1704,7 +1982,21 @@
       },
       "total_score_uncapped": null,
       "decision_reason": "回避：估值字段缺失，已从总分加权中剔除；消息面数据不完整，需要人工复核；日线跌破 MA60",
-      "risk_reason": "估值字段缺失，已从总分加权中剔除；消息面数据不完整，需要人工复核；日线跌破 MA60"
+      "risk_reason": "估值字段缺失，已从总分加权中剔除；消息面数据不完整，需要人工复核；日线跌破 MA60",
+      "sector_rank": 4,
+      "why_selected": [
+        "所属方向热度排名第4，主题为能源电力",
+        "技术形态：日线分歧，周线转弱，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "4.18",
+        "entry_zone": "4.08-4.22",
+        "stop_loss": "4.02",
+        "target_1": "4.43",
+        "target_2": "4.67",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "重大风险或消息风险优先 => 回避；当前风险：估值字段缺失，已从总分加权中剔除；消息面数据不完整，需要人工复核；日线跌破 MA60"
     },
     {
       "code": "688041",
@@ -1735,11 +2027,27 @@
         "return_20d": -23.1994,
         "return_60d": 9.8198,
         "volume_ratio_20d": 0.7738,
+        "atr14": 20.2586,
         "daily_signal": "震荡整理",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线分歧",
+        "weekly_trend": "周线转弱",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "等待确认"
+        ],
         "entry_reason": "跌破 MA60 且周线走弱",
-        "stop_loss": "252.00",
+        "trade_plan": {
+          "watch_price": "302.83",
+          "entry_zone": "258.05-312.96",
+          "stop_loss": "243.68",
+          "resistance_1": "353.68",
+          "resistance_2": "358.80",
+          "atr14": "20.26",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "243.68",
         "resistance_1": "353.68",
         "resistance_2": "358.80"
       },
@@ -1779,9 +2087,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 46.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 0.773849546400407,
         "volume_ratio_5d": 0.9858643178122718,
@@ -1798,6 +2110,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -1811,9 +2124,9 @@
       "rank": 9,
       "rank_change": null,
       "status": "回避",
-      "entry_zone": "264.16-307.37",
+      "entry_zone": "258.05-312.96",
       "watch_price": "302.83",
-      "stop_loss": "252.00",
+      "stop_loss": "243.68",
       "resistance_1": "353.68",
       "resistance_2": "358.80",
       "positive_reasons": [
@@ -1905,9 +2218,9 @@
           "neutral_votes": 3,
           "disagreement_points": [
             "基本面、技术面、估值或消息面存在多空分歧。",
-            "状态为回避，投委会不能给出重点跟踪结论。"
+            "投委会结论按统一决策树同步为回避。"
           ],
-          "final_decision": "观察或回避",
+          "final_decision": "回避",
           "confidence_level": "低",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -1918,7 +2231,22 @@
       },
       "total_score_uncapped": null,
       "decision_reason": "回避：PE 高于80，估值风险较高；消息面数据不完整，需要人工复核；日线跌破 MA60",
-      "risk_reason": "PE 高于80，估值风险较高；消息面数据不完整，需要人工复核；日线跌破 MA60"
+      "risk_reason": "PE 高于80，估值风险较高；消息面数据不完整，需要人工复核；日线跌破 MA60",
+      "sector_rank": 3,
+      "why_selected": [
+        "所属方向热度排名第3，主题为AI算力",
+        "基本面评分81.0，ROE 3.0，净利润同比 35.8",
+        "技术形态：日线分歧，周线转弱，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "302.83",
+        "entry_zone": "258.05-312.96",
+        "stop_loss": "243.68",
+        "target_1": "353.68",
+        "target_2": "358.80",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "重大风险或消息风险优先 => 回避；当前风险：PE 高于80，估值风险较高；消息面数据不完整，需要人工复核；日线跌破 MA60"
     },
     {
       "code": "000063",
@@ -1949,13 +2277,29 @@
         "return_20d": 2.7566,
         "return_60d": 5.4418,
         "volume_ratio_20d": 1.6325,
+        "atr14": 2.2779,
         "daily_signal": "震荡整理",
         "weekly_signal": "周线趋势跟踪",
         "monthly_signal": "高位风险区",
+        "daily_trend": "日线右侧上行",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线偏弱",
+        "technical_setup": [
+          "右侧启动"
+        ],
         "entry_reason": "技术信号分歧较大，等待进一步确认",
-        "stop_loss": "33.91",
-        "resistance_1": "41.30",
-        "resistance_2": "41.30"
+        "trade_plan": {
+          "watch_price": "36.91",
+          "entry_zone": "35.77-40.28",
+          "stop_loss": "33.06",
+          "resistance_1": "43.70",
+          "resistance_2": "47.11",
+          "atr14": "2.28",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "33.06",
+        "resistance_1": "43.70",
+        "resistance_2": "47.11"
       },
       "fundamental_detail": {
         "report_period": "20260331",
@@ -1991,9 +2335,13 @@
       },
       "capital_flow_detail": {
         "daily_flow": null,
+        "flow_1d": null,
         "flow_5d": null,
         "flow_10d": null,
         "flow_20d": null,
+        "main_fund_score": 62.0,
+        "northbound_score": null,
+        "institution_score": 50.0,
         "turnover_rate": null,
         "volume_ratio": 1.6324919965234106,
         "volume_ratio_5d": 0.9955688151360499,
@@ -2010,6 +2358,7 @@
         "news_count": 10,
         "event_count": 0,
         "matched_keywords": [],
+        "risk_events": [],
         "data_complete": false,
         "news_risk_comment": "消息面数据不完整，需要人工复核；未发现已获取文本中的重大风险关键词",
         "positive_keywords": [
@@ -2020,12 +2369,12 @@
       },
       "rank": 10,
       "rank_change": null,
-      "status": "观察",
-      "entry_zone": "36.36-39.73",
+      "status": "回避",
+      "entry_zone": "35.77-40.28",
       "watch_price": "36.91",
-      "stop_loss": "33.91",
-      "resistance_1": "41.30",
-      "resistance_2": "41.30",
+      "stop_loss": "33.06",
+      "resistance_1": "43.70",
+      "resistance_2": "47.11",
       "positive_reasons": [
         "命中重点方向：AI算力",
         "同主题候选数量充足",
@@ -2079,9 +2428,9 @@
           "risks": []
         },
         "technical_agent": {
-          "decision": "中性",
-          "reason": "技术面尚未形成清晰买点。",
-          "summary": "技术面尚未形成清晰买点。"
+          "decision": "看空",
+          "reason": "技术面提示回避，不宜激进。",
+          "summary": "技术面提示回避，不宜激进。"
         },
         "valuation_agent": {
           "decision": "看多",
@@ -2108,12 +2457,13 @@
         },
         "final_committee_agent": {
           "bullish_votes": 3,
-          "bearish_votes": 1,
-          "neutral_votes": 3,
+          "bearish_votes": 2,
+          "neutral_votes": 2,
           "disagreement_points": [
-            "基本面、技术面、估值或消息面存在多空分歧。"
+            "基本面、技术面、估值或消息面存在多空分歧。",
+            "投委会结论按统一决策树同步为回避。"
           ],
-          "final_decision": "观察",
+          "final_decision": "回避",
           "confidence_level": "低",
           "contrary_view": [
             "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
@@ -2123,19 +2473,34 @@
         }
       },
       "total_score_uncapped": null,
-      "decision_reason": "观察：技术信号分歧较大，等待进一步确认",
-      "risk_reason": "ROE 低于5%，资本回报偏弱；归母净利润同比为负；经营现金流为负，现金质量偏弱"
+      "decision_reason": "回避：消息面数据不完整，需要人工复核",
+      "risk_reason": "消息面数据不完整，需要人工复核",
+      "sector_rank": 3,
+      "why_selected": [
+        "所属方向热度排名第3，主题为AI算力",
+        "基本面评分14.0，ROE 1.7，净利润同比 -46.6",
+        "技术形态：日线右侧上行，周线多头，震荡整理"
+      ],
+      "trade_plan": {
+        "watch_price": "36.91",
+        "entry_zone": "35.77-40.28",
+        "stop_loss": "33.06",
+        "target_1": "43.70",
+        "target_2": "47.11",
+        "basis": "ATR14、MA20、MA60、20/60日前高"
+      },
+      "decision_tree": "重大风险或消息风险优先 => 回避；当前风险：消息面数据不完整，需要人工复核"
     }
   ],
   "committee_conclusion": {
-    "one_line": "Top1 北京君正(300223)：观察，置信度 高。",
+    "one_line": "Top1 北京君正(300223)：低吸，置信度 高。",
     "top_stock": {
       "code": "300223",
       "name": "北京君正"
     },
-    "final_decision": "观察",
+    "final_decision": "低吸",
     "confidence_level": "高",
-    "decision_reason": "观察：技术信号分歧较大，等待进一步确认",
+    "decision_reason": "低吸：技术信号分歧较大，等待进一步确认",
     "contrary_view": [
       "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
       "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
@@ -2146,45 +2511,63 @@
     {
       "code": "603986",
       "name": "兆易创新",
-      "risk": "减持"
+      "risk": "减持",
+      "event_type": "减持",
+      "event_time": "数据缺失",
+      "impact_level": "中",
+      "risk_score": 45,
+      "evidence": "长鑫科技董事长，减持603986"
     },
     {
       "code": "002156",
       "name": "通富微电",
-      "risk": "质押"
+      "risk": "质押",
+      "event_type": "质押",
+      "event_time": "数据缺失",
+      "impact_level": "中",
+      "risk_score": 45,
+      "evidence": "通富微电：控股股东解除质押430万股，质押清零"
     }
   ],
   "data_quality": {
     "missing_fields": [
       "capital_flow.000063.daily_flow",
       "capital_flow.000063.flow_10d",
+      "capital_flow.000063.flow_1d",
       "capital_flow.000063.flow_20d",
       "capital_flow.000063.flow_5d",
       "capital_flow.000063.northbound_change",
+      "capital_flow.000063.northbound_score",
       "capital_flow.000063.sector_flow_rank",
       "capital_flow.000063.sector_flow_strength",
       "capital_flow.000063.turnover_rate",
       "capital_flow.002156.daily_flow",
       "capital_flow.002156.flow_10d",
+      "capital_flow.002156.flow_1d",
       "capital_flow.002156.flow_20d",
       "capital_flow.002156.flow_5d",
       "capital_flow.002156.northbound_change",
+      "capital_flow.002156.northbound_score",
       "capital_flow.002156.sector_flow_rank",
       "capital_flow.002156.sector_flow_strength",
       "capital_flow.002156.turnover_rate",
       "capital_flow.002371.daily_flow",
       "capital_flow.002371.flow_10d",
+      "capital_flow.002371.flow_1d",
       "capital_flow.002371.flow_20d",
       "capital_flow.002371.flow_5d",
       "capital_flow.002371.northbound_change",
+      "capital_flow.002371.northbound_score",
       "capital_flow.002371.sector_flow_rank",
       "capital_flow.002371.sector_flow_strength",
       "capital_flow.002371.turnover_rate",
       "capital_flow.300223.daily_flow",
       "capital_flow.300223.flow_10d",
+      "capital_flow.300223.flow_1d",
       "capital_flow.300223.flow_20d",
       "capital_flow.300223.flow_5d",
       "capital_flow.300223.northbound_change",
+      "capital_flow.300223.northbound_score",
       "capital_flow.300223.sector_flow_rank",
       "capital_flow.300223.sector_flow_strength",
       "capital_flow.300223.turnover_rate",
@@ -2196,57 +2579,71 @@
       "capital_flow.300308.volume_ratio",
       "capital_flow.300750.daily_flow",
       "capital_flow.300750.flow_10d",
+      "capital_flow.300750.flow_1d",
       "capital_flow.300750.flow_20d",
       "capital_flow.300750.flow_5d",
       "capital_flow.300750.northbound_change",
+      "capital_flow.300750.northbound_score",
       "capital_flow.300750.sector_flow_rank",
       "capital_flow.300750.sector_flow_strength",
       "capital_flow.300750.turnover_rate",
       "capital_flow.600406.daily_flow",
       "capital_flow.600406.flow_10d",
+      "capital_flow.600406.flow_1d",
       "capital_flow.600406.flow_20d",
       "capital_flow.600406.flow_5d",
       "capital_flow.600406.northbound_change",
+      "capital_flow.600406.northbound_score",
       "capital_flow.600406.sector_flow_rank",
       "capital_flow.600406.sector_flow_strength",
       "capital_flow.600406.turnover_rate",
       "capital_flow.600584.daily_flow",
       "capital_flow.600584.flow_10d",
+      "capital_flow.600584.flow_1d",
       "capital_flow.600584.flow_20d",
       "capital_flow.600584.flow_5d",
       "capital_flow.600584.northbound_change",
+      "capital_flow.600584.northbound_score",
       "capital_flow.600584.sector_flow_rank",
       "capital_flow.600584.sector_flow_strength",
       "capital_flow.600584.turnover_rate",
       "capital_flow.600905.daily_flow",
       "capital_flow.600905.flow_10d",
+      "capital_flow.600905.flow_1d",
       "capital_flow.600905.flow_20d",
       "capital_flow.600905.flow_5d",
       "capital_flow.600905.northbound_change",
+      "capital_flow.600905.northbound_score",
       "capital_flow.600905.sector_flow_rank",
       "capital_flow.600905.sector_flow_strength",
       "capital_flow.600905.turnover_rate",
       "capital_flow.603986.daily_flow",
       "capital_flow.603986.flow_10d",
+      "capital_flow.603986.flow_1d",
       "capital_flow.603986.flow_20d",
       "capital_flow.603986.flow_5d",
       "capital_flow.603986.northbound_change",
+      "capital_flow.603986.northbound_score",
       "capital_flow.603986.sector_flow_rank",
       "capital_flow.603986.sector_flow_strength",
       "capital_flow.603986.turnover_rate",
       "capital_flow.688008.daily_flow",
       "capital_flow.688008.flow_10d",
+      "capital_flow.688008.flow_1d",
       "capital_flow.688008.flow_20d",
       "capital_flow.688008.flow_5d",
       "capital_flow.688008.northbound_change",
+      "capital_flow.688008.northbound_score",
       "capital_flow.688008.sector_flow_rank",
       "capital_flow.688008.sector_flow_strength",
       "capital_flow.688008.turnover_rate",
       "capital_flow.688041.daily_flow",
       "capital_flow.688041.flow_10d",
+      "capital_flow.688041.flow_1d",
       "capital_flow.688041.flow_20d",
       "capital_flow.688041.flow_5d",
       "capital_flow.688041.northbound_change",
+      "capital_flow.688041.northbound_score",
       "capital_flow.688041.sector_flow_rank",
       "capital_flow.688041.sector_flow_strength",
       "capital_flow.688041.turnover_rate",
