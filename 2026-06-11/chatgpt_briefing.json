@@ -3,7 +3,7 @@
   "market_style": {
     "market_style": "震荡风格",
     "confidence": "中",
-    "market_temperature": 58.45,
+    "market_temperature": 59.7,
     "style_reason": "强弱信号交织，市场以区间震荡为主。",
     "reasons": [
       "强弱信号交织，市场以区间震荡为主。",
@@ -44,12 +44,12 @@
       {
         "sector_theme": "AI算力",
         "candidate_count": 4,
-        "avg_total_score": 58.59,
-        "avg_5d_proxy": 2.6,
-        "avg_10d_proxy": 2.6,
-        "avg_20d_proxy": -7.77,
+        "avg_total_score": 61.09,
+        "avg_5d_proxy": 1.9,
+        "avg_10d_proxy": 1.9,
+        "avg_20d_proxy": -0.55,
         "heat_score": 85.0,
-        "rotation_score": 63.55
+        "rotation_score": 65.94
       },
       {
         "sector_theme": "能源电力",
@@ -64,6 +64,384 @@
     ]
   },
   "top10": [
+    {
+      "code": "300308",
+      "name": "中际旭创",
+      "sector_theme": "AI算力",
+      "industry": "光模块",
+      "close": 1147.0,
+      "change_pct": -2.8,
+      "technical_score": 71.1,
+      "fundamental_score": 100.0,
+      "valuation_score": 45.0,
+      "capital_flow_score": 42.16,
+      "news_risk_score": 85.0,
+      "sector_heat_score": 85.0,
+      "technical_detail": {
+        "close": 1147.0,
+        "ma5": 1188.396,
+        "ma10": 1189.794,
+        "ma20": 1123.825,
+        "ma60": 865.5738,
+        "ma120": 724.6189,
+        "macd_dif": 77.3846,
+        "macd_dea": 87.6583,
+        "macd_hist": -20.5473,
+        "rsi": 62.6853,
+        "distance_to_ma20_pct": 2.0622,
+        "distance_to_ma60_pct": 32.5132,
+        "return_20d": 9.3214,
+        "return_60d": 114.8745,
+        "volume_ratio_20d": 0.8123,
+        "atr14": 72.4707,
+        "daily_signal": "震荡整理",
+        "weekly_signal": "周线趋势跟踪",
+        "monthly_signal": "高位风险区",
+        "daily_trend": "日线均线附近震荡",
+        "weekly_trend": "周线多头",
+        "monthly_trend": "月线转强",
+        "technical_setup": [
+          "右侧启动"
+        ],
+        "entry_reason": "价格回踩均线附近且周线结构未破坏",
+        "trade_plan": {
+          "watch_price": "1123.83",
+          "entry_zone": "1087.59-1183.24",
+          "stop_loss": "839.61",
+          "resistance_1": "1320.00",
+          "resistance_2": "1400.65",
+          "atr14": "72.47",
+          "plan_basis": "ATR14、MA20、MA60、20/60日前高"
+        },
+        "stop_loss": "839.61",
+        "resistance_1": "1320.00",
+        "resistance_2": "1400.65"
+      },
+      "fundamental_detail": {
+        "report_period": "20260331",
+        "revenue_yoy": 192.1169,
+        "net_profit_yoy": 262.2837,
+        "roe": 17.54,
+        "gross_margin": 46.0581,
+        "net_margin": 32.3998,
+        "operating_cash_flow": 3367573676.62,
+        "debt_ratio": 32.6362,
+        "rd_expense_ratio": null,
+        "revenue": 19496398083.95,
+        "parent_net_profit": 5734501526.83,
+        "deducted_net_profit": 5717748340.78,
+        "rd_expense": null,
+        "sources": [
+          "stock_financial_abstract"
+        ],
+        "scoring_reasons": [
+          "roe: ROE分档基础分=80",
+          "net_profit_yoy: 归母净利润同比超过30%，成长性强 (+15)",
+          "revenue_yoy: 营业收入同比超过15%，需求扩张较好 (+8)",
+          "operating_cash_flow: 经营现金流为正，盈利兑现度较好 (+10)",
+          "gross_margin: 毛利率维持在25%以上 (+4)",
+          "debt_ratio: 资产负债率适中 (+4)"
+        ]
+      },
+      "valuation_detail": {
+        "pe_ttm": 55.3571,
+        "pb": 35.8122,
+        "ps": null,
+        "market_cap": null,
+        "source": "financial_eps_annualized_estimate",
+        "valuation_comment": "PE 偏贵"
+      },
+      "capital_flow_detail": {
+        "daily_flow": null,
+        "flow_1d": null,
+        "flow_5d": null,
+        "flow_10d": null,
+        "flow_20d": null,
+        "super_order_flow_1d": null,
+        "super_order_flow_5d": null,
+        "super_order_score": null,
+        "main_fund_score": 50.0,
+        "northbound_score": null,
+        "lhb_institution_net_buy": null,
+        "lhb_institution_score": null,
+        "institution_score": null,
+        "capital_flow_source": "volume_amount_proxy",
+        "capital_flow_tier": "资金偏弱",
+        "source_status": [],
+        "successful_real_sources": [],
+        "failed_real_sources": [],
+        "real_source_count": 0,
+        "turnover_rate": null,
+        "volume_ratio": 0.8123202045514979,
+        "volume_ratio_5d": 0.6913620283374943,
+        "volume_ratio_20d": 0.8123202045514979,
+        "amount": 26262285500.0,
+        "amount_change_5d": 0.6700564681991314,
+        "amount_change_20d": 0.8237291456765697,
+        "northbound_change": null,
+        "sector_flow_rank": null,
+        "sector_flow_strength": null,
+        "capital_flow_comment": "日常稳定模式：使用成交额变化、量比、换手率做资金面替代评分"
+      },
+      "news_risk_detail": {
+        "news_count": 10,
+        "event_count": 0,
+        "matched_keywords": [],
+        "risk_events": [],
+        "data_complete": true,
+        "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
+      },
+      "rank": 1,
+      "rank_change": null,
+      "status": "低吸",
+      "entry_zone": "1098.46-1172.36",
+      "watch_price": "1123.83",
+      "stop_loss": "847.46",
+      "resistance_1": "1506.45",
+      "resistance_2": "1746.09",
+      "target1": "1506.45",
+      "target2": "1746.09",
+      "signal_grade": "B",
+      "estimated_win_rate": 18,
+      "position_suggestion": "5%-10%",
+      "trade_signal": {
+        "available": true,
+        "data_source": "real_ohlcv",
+        "raw_indicators": {
+          "daily": {
+            "date": "2026-06-10",
+            "open": 1150.0,
+            "high": 1174.0,
+            "low": 1128.8,
+            "close": 1147.0,
+            "volume": 228965.0,
+            "ma20": 1123.825,
+            "ma60": 865.5738,
+            "ma120": 724.6189,
+            "macd_dif": 77.3846,
+            "macd_dea": 87.6583,
+            "macd_hist": -20.5473,
+            "macd_signal": "死叉",
+            "rsi": 62.6853,
+            "atr": 72.4707,
+            "volume_ma20": 281865.45,
+            "volume_ratio_20d": 0.8123
+          },
+          "weekly": {
+            "close": 1147.0,
+            "ma20": 776.1085,
+            "ma60": 473.025,
+            "ma120": 297.1016,
+            "macd_signal": "金叉",
+            "recent_low": 815.23
+          },
+          "monthly": {
+            "close": 1147.0,
+            "ma20": 417.718,
+            "ma60": null,
+            "ma120": null,
+            "macd_signal": "金叉"
+          },
+          "daily_bars": 745,
+          "weekly_bars": 158,
+          "monthly_bars": 38
+        },
+        "trend_state": {
+          "daily_up": true,
+          "weekly_up": true,
+          "monthly_up": true,
+          "daily": "向上",
+          "weekly": "向上",
+          "monthly": "向上"
+        },
+        "entry_zone": "1098.46-1172.36",
+        "entry_reason": "当前价格接近 MA20；ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近",
+        "entry_sources": [
+          "MA20=1123.83",
+          "ATR14=72.47",
+          "20日低点=988.88",
+          "成交密集区=879.25",
+          "近8周支撑=815.23"
+        ],
+        "stop_loss": "847.46",
+        "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
+        "target1": "1506.45",
+        "target2": "1746.09",
+        "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=1320.00，60日前高=1320.00，ATR14=72.47。",
+        "signal_grade": "B",
+        "signal_grade_reason": "趋势向上且资金面中性或偏正。",
+        "estimated_win_rate": 18,
+        "win_rate_detail": {
+          "similar_count": 22,
+          "win_count": 4,
+          "success_rate": 18,
+          "pattern": "110110",
+          "horizon_days": 20,
+          "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR"
+        },
+        "position_suggestion": "5%-10%",
+        "position_reason": "B级趋势信号但历史胜率证据偏弱，仅适合小仓位试错。",
+        "trade_plan": {
+          "signal_grade": "B",
+          "entry_zone": "1098.46-1172.36",
+          "stop_loss": "847.46",
+          "target1": "1506.45",
+          "target2": "1746.09",
+          "estimated_win_rate": "18%",
+          "position_suggestion": "5%-10%"
+        }
+      },
+      "trade_plan": {
+        "signal_grade": "B",
+        "watch_price": "1123.83",
+        "entry_zone": "1098.46-1172.36",
+        "stop_loss": "847.46",
+        "target_1": "1506.45",
+        "target_2": "1746.09",
+        "estimated_win_rate": "18%",
+        "position_suggestion": "5%-10%",
+        "entry_reason": "当前价格接近 MA20；ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近",
+        "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
+        "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=1320.00，60日前高=1320.00，ATR14=72.47。",
+        "basis": "MA20=1123.83；ATR14=72.47；20日低点=988.88；成交密集区=879.25；近8周支撑=815.23"
+      },
+      "positive_reasons": [
+        "命中重点方向：AI算力",
+        "同主题候选数量充足",
+        "行业/概念信息可用于交叉验证",
+        "ROE 处于15%-20%，盈利质量较强",
+        "归母净利润同比超过30%，成长性强",
+        "营业收入同比超过15%，需求扩张较好",
+        "经营现金流为正，盈利兑现度较好",
+        "毛利率维持在25%以上",
+        "资产负债率适中",
+        "新闻与公告数据较完整",
+        "未发现已获取文本中的重大风险关键词",
+        "日线站上 MA20",
+        "日线站上 MA60",
+        "当前价靠近 MA20，买点位置较好",
+        "RSI 处于健康区间",
+        "近20日保持温和上行",
+        "周线 MA5/MA10/MA20 多头排列",
+        "周线 MACD 偏强",
+        "月线趋势转强"
+      ],
+      "negative_reasons": [
+        "PE 处于40-80区间，估值偏贵",
+        "PB 高于10，安全边际偏弱",
+        "日线 MACD 未形成强势信号",
+        "近3年价格分位偏高，需警惕高位风险"
+      ],
+      "risk_flags": [],
+      "technical_available": true,
+      "fundamental_available": true,
+      "valuation_available": true,
+      "capital_flow_available": true,
+      "news_risk_available": true,
+      "sector_heat_available": true,
+      "total_score": 74.99,
+      "normalized_weights": {
+        "sector_heat_score": 0.2,
+        "fundamental_score": 0.25,
+        "valuation_score": 0.15,
+        "technical_score": 0.25,
+        "capital_flow_score": 0.1,
+        "news_risk_score": 0.05
+      },
+      "available_factor_count": 6,
+      "missing_factor_count": 0,
+      "missing_factors": [],
+      "score_confidence": "高",
+      "decision_confidence": 75,
+      "decision_confidence_detail": {
+        "data_completeness": 100.0,
+        "factor_consistency": 52.99,
+        "risk_events": 85.0,
+        "capital_flow": 42.16,
+        "technical_signal": 71.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 10.6,
+          "risk_events": 17.0,
+          "capital_flow": 6.32,
+          "technical_signal": 10.66
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%",
+        "risk_quality": 85.0,
+        "score_stability": 82.0,
+        "missing_factor_rate": 0.0
+      },
+      "ranking_penalty": 0.0,
+      "ranking_score": 74.99,
+      "top10_eligible": true,
+      "agent_reviews": {
+        "fundamental_agent": {
+          "decision": "看多",
+          "reason": "财务质量评分较好，盈利和成长指标具备正向支撑。",
+          "summary": "财务质量评分较好，盈利和成长指标具备正向支撑。",
+          "risks": []
+        },
+        "technical_agent": {
+          "decision": "看多",
+          "reason": "技术形态偏强，当前状态为低吸。",
+          "summary": "技术形态偏强，当前状态为低吸。"
+        },
+        "valuation_agent": {
+          "decision": "中性",
+          "reason": "估值处于中性观察区间。",
+          "summary": "估值处于中性观察区间。"
+        },
+        "news_risk_agent": {
+          "decision": "看多",
+          "reason": "已获取消息中未发现明显重大负面。",
+          "summary": "已获取消息中未发现明显重大负面。",
+          "risk_flags": []
+        },
+        "capital_flow_agent": {
+          "decision": "中性",
+          "reason": "资金流数据不足或信号不明确，按中性处理。"
+        },
+        "market_style_agent": {
+          "decision": "看多",
+          "reason": "市场风格更偏成长或题材活跃，对高景气主题有利。"
+        },
+        "sector_rotation_agent": {
+          "decision": "看多",
+          "reason": "AI算力主题热度较高，具备轮动跟踪价值。"
+        },
+        "final_committee_agent": {
+          "bullish_votes": 5,
+          "bearish_votes": 0,
+          "neutral_votes": 2,
+          "disagreement_points": [
+            "投委会结论按统一决策树同步为低吸。"
+          ],
+          "final_decision": "低吸",
+          "confidence_level": "高",
+          "contrary_view": [
+            "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
+            "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
+            "最可能错在哪里：规则评分可能高估短期技术强势，低估行业景气拐点和个股真实基本面差异。"
+          ]
+        }
+      },
+      "decision_reason": "低吸：价格回踩均线附近且周线结构未破坏",
+      "risk_reason": "PE 处于40-80区间，估值偏贵；PB 高于10，安全边际偏弱；日线 MACD 未形成强势信号",
+      "sector_rank": 3,
+      "why_selected": [
+        "所属方向热度排名第3，主题为AI算力",
+        "基本面评分100.0，ROE 17.5，净利润同比 262.3",
+        "技术形态：日线均线附近震荡，周线多头，震荡整理"
+      ],
+      "decision_tree": "综合评分>=70 => 低吸；当前风险：PE 处于40-80区间，估值偏贵；PB 高于10，安全边际偏弱；日线 MACD 未形成强势信号"
+    },
     {
       "code": "300223",
       "name": "北京君正",
@@ -191,7 +569,7 @@
         "data_complete": true,
         "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
       },
-      "rank": 1,
+      "rank": 2,
       "rank_change": null,
       "status": "低吸",
       "entry_zone": "140.74-164.80",
@@ -430,7 +808,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "低吸：技术信号分歧较大，等待进一步确认",
       "risk_reason": "ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；日线 MACD 未形成强势信号",
       "sector_rank": 1,
@@ -578,7 +955,7 @@
         "data_complete": true,
         "news_risk_comment": "命中轻中度风险关键词：减持；新闻与公告数据较完整"
       },
-      "rank": 2,
+      "rank": 3,
       "rank_change": null,
       "status": "低吸",
       "entry_zone": "444.21-514.92",
@@ -823,7 +1200,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "低吸：价格偏离均线过大或指标过热",
       "risk_reason": "减持",
       "sector_rank": 1,
@@ -961,7 +1337,7 @@
         "data_complete": true,
         "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
       },
-      "rank": 3,
+      "rank": 4,
       "rank_change": null,
       "status": "观察",
       "entry_zone": "213.81-261.04",
@@ -1200,7 +1576,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "观察：技术信号分歧较大，等待进一步确认",
       "risk_reason": "PE 高于80，估值风险较高；PB 高于10，安全边际偏弱；日线未站上 MA20",
       "sector_rank": 1,
@@ -1347,7 +1722,7 @@
         "data_complete": true,
         "news_risk_comment": "命中轻中度风险关键词：质押；新闻与公告数据较完整"
       },
-      "rank": 4,
+      "rank": 5,
       "rank_change": null,
       "status": "观察",
       "entry_zone": "53.07-66.40",
@@ -1590,7 +1965,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "观察：价格回踩均线附近且周线结构未破坏",
       "risk_reason": "质押",
       "sector_rank": 2,
@@ -1726,7 +2100,7 @@
         "data_complete": true,
         "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
       },
-      "rank": 5,
+      "rank": 6,
       "rank_change": null,
       "status": "观察",
       "entry_zone": "559.86-639.23",
@@ -1964,7 +2338,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "观察：价格回踩均线附近且周线结构未破坏",
       "risk_reason": "ROE 低于5%，资本回报偏弱；PE 处于40-80区间，估值偏贵；PB 高于10，安全边际偏弱",
       "sector_rank": 2,
@@ -2101,7 +2474,7 @@
         "data_complete": true,
         "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
       },
-      "rank": 6,
+      "rank": 7,
       "rank_change": null,
       "status": "观察",
       "entry_zone": "69.91-79.11",
@@ -2340,7 +2713,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "观察：价格偏离均线过大或指标过热",
       "risk_reason": "ROE 低于5%，资本回报偏弱；营业收入同比转负，景气度承压；PE 高于80，估值风险较高",
       "sector_rank": 1,
@@ -2476,7 +2848,7 @@
         "data_complete": true,
         "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
       },
-      "rank": 7,
+      "rank": 8,
       "rank_change": null,
       "status": "观察",
       "entry_zone": "36.11-39.94",
@@ -2714,7 +3086,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "观察：技术信号分歧较大，等待进一步确认",
       "risk_reason": "ROE 低于5%，资本回报偏弱；归母净利润同比为负；经营现金流为负，现金质量偏弱",
       "sector_rank": 3,
@@ -2852,7 +3223,7 @@
         "data_complete": true,
         "news_risk_comment": "新闻与公告数据较完整；未发现已获取文本中的重大风险关键词"
       },
-      "rank": 8,
+      "rank": 9,
       "rank_change": null,
       "status": "回避",
       "entry_zone": "248.75-292.49",
@@ -3095,7 +3466,6 @@
           ]
         }
       },
-      "total_score_uncapped": null,
       "decision_reason": "回避：PE 高于80，估值风险较高；日线跌破 MA60；价格显著跌破 MA20，短线修复仍弱",
       "risk_reason": "PE 高于80，估值风险较高；日线跌破 MA60；价格显著跌破 MA20，短线修复仍弱",
       "sector_rank": 3,
@@ -3108,15 +3478,15 @@
     }
   ],
   "committee_conclusion": {
-    "one_line": "Top1 北京君正(300223)：低吸，置信度 高，决策可信度 85%。",
+    "one_line": "Top1 中际旭创(300308)：低吸，置信度 高，决策可信度 75%。",
     "top_stock": {
-      "code": "300223",
-      "name": "北京君正"
+      "code": "300308",
+      "name": "中际旭创"
     },
     "final_decision": "低吸",
     "confidence_level": "高",
-    "decision_confidence": 85,
-    "decision_reason": "低吸：技术信号分歧较大，等待进一步确认",
+    "decision_confidence": 75,
+    "decision_reason": "低吸：价格回踩均线附近且周线结构未破坏",
     "contrary_view": [
       "为什么不能买：公开数据源可能缺失，资金流和消息面未完整确认。",
       "最大风险是什么：高位主题退潮、公告负面、业绩不及预期或流动性突然转弱。",
@@ -3147,18 +3517,6 @@
   ],
   "data_quality": {
     "missing_fields": [
-      "capital_flow.300308.amount_change_20d",
-      "capital_flow.300308.daily_flow",
-      "capital_flow.300308.flow_10d",
-      "capital_flow.300308.flow_20d",
-      "capital_flow.300308.flow_5d",
-      "capital_flow.300308.volume_ratio",
-      "daily_k.300308",
-      "fundamental.000063.rd_expense_ratio",
-      "fundamental.002156.rd_expense_ratio",
-      "fundamental.002371.rd_expense_ratio",
-      "fundamental.300223.rd_expense_ratio",
-      "fundamental.300308.rd_expense_ratio",
       "fundamental.300750.debt_ratio",
       "fundamental.300750.gross_margin",
       "fundamental.300750.net_margin",
@@ -3175,7 +3533,6 @@
       "fundamental.600406.rd_expense_ratio",
       "fundamental.600406.revenue_yoy",
       "fundamental.600406.roe",
-      "fundamental.600584.rd_expense_ratio",
       "fundamental.600905.debt_ratio",
       "fundamental.600905.gross_margin",
       "fundamental.600905.net_margin",
@@ -3184,22 +3541,6 @@
       "fundamental.600905.rd_expense_ratio",
       "fundamental.600905.revenue_yoy",
       "fundamental.600905.roe",
-      "fundamental.603986.rd_expense_ratio",
-      "fundamental.688008.rd_expense_ratio",
-      "fundamental.688041.rd_expense_ratio",
-      "technical.300308.daily_bars",
-      "valuation.000063.market_cap",
-      "valuation.000063.ps",
-      "valuation.002156.market_cap",
-      "valuation.002156.ps",
-      "valuation.002371.market_cap",
-      "valuation.002371.ps",
-      "valuation.300223.market_cap",
-      "valuation.300223.ps",
-      "valuation.300308.market_cap",
-      "valuation.300308.pb",
-      "valuation.300308.pe_ttm",
-      "valuation.300308.ps",
       "valuation.300750.market_cap",
       "valuation.300750.pb",
       "valuation.300750.pe_ttm",
@@ -3208,81 +3549,17 @@
       "valuation.600406.pb",
       "valuation.600406.pe_ttm",
       "valuation.600406.ps",
-      "valuation.600584.market_cap",
-      "valuation.600584.ps",
       "valuation.600905.market_cap",
       "valuation.600905.pb",
       "valuation.600905.pe_ttm",
-      "valuation.600905.ps",
-      "valuation.603986.market_cap",
-      "valuation.603986.ps",
-      "valuation.688008.market_cap",
-      "valuation.688008.ps",
-      "valuation.688041.market_cap",
-      "valuation.688041.ps"
+      "valuation.600905.ps"
     ],
     "failed_sources": [],
     "warnings": [
-      "cache_hit:stock_zh_a_hist:000063: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:688041: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:603986: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:300223: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:688008: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:002156: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:600584: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:002371: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:600905: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:600406: 使用本地缓存数据",
-      "cache_hit:stock_zh_a_hist:300750: 使用本地缓存数据",
-      "cache_hit:stock_gsrl_gsdt_em:20260611: 使用本地缓存数据",
-      "cache_hit:stock_restricted_release_summary_em:20260512:20260611: 使用本地缓存数据",
-      "cache_hit:stock_board_industry_name_ths: 使用本地缓存数据",
-      "cache_hit:stock_board_concept_summary_ths: 使用本地缓存数据",
-      "cache_hit:stock_financial_abstract:000063: 使用本地缓存数据",
-      "cache_hit:stock_news_em:000063: 使用本地缓存数据",
-      "000063:基本面存在局部缺失，结论需结合原始公告复核",
-      "000063:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:300308: 使用本地缓存数据",
-      "cache_hit:stock_news_em:300308: 使用本地缓存数据",
-      "300308:技术面历史不足120个交易日",
-      "300308:基本面存在局部缺失，结论需结合原始公告复核",
-      "300308:估值数据不足，无法判断相对贵贱",
-      "300308:资金流与量价数据均缺失",
-      "cache_hit:stock_financial_abstract:688041: 使用本地缓存数据",
-      "cache_hit:stock_news_em:688041: 使用本地缓存数据",
-      "688041:基本面存在局部缺失，结论需结合原始公告复核",
-      "688041:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:603986: 使用本地缓存数据",
-      "cache_hit:stock_news_em:603986: 使用本地缓存数据",
-      "603986:基本面存在局部缺失，结论需结合原始公告复核",
-      "603986:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:300223: 使用本地缓存数据",
-      "cache_hit:stock_news_em:300223: 使用本地缓存数据",
-      "300223:基本面存在局部缺失，结论需结合原始公告复核",
-      "300223:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:688008: 使用本地缓存数据",
-      "cache_hit:stock_news_em:688008: 使用本地缓存数据",
-      "688008:基本面存在局部缺失，结论需结合原始公告复核",
-      "688008:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:002156: 使用本地缓存数据",
-      "cache_hit:stock_news_em:002156: 使用本地缓存数据",
-      "002156:基本面存在局部缺失，结论需结合原始公告复核",
-      "002156:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:600584: 使用本地缓存数据",
-      "cache_hit:stock_news_em:600584: 使用本地缓存数据",
-      "600584:基本面存在局部缺失，结论需结合原始公告复核",
-      "600584:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_financial_abstract:002371: 使用本地缓存数据",
-      "cache_hit:stock_news_em:002371: 使用本地缓存数据",
-      "002371:基本面存在局部缺失，结论需结合原始公告复核",
-      "002371:估值分位暂以简化逻辑替代历史分位",
-      "cache_hit:stock_news_em:600905: 使用本地缓存数据",
       "600905:基本面数据缺失较多，需人工复核财务质量",
       "600905:估值数据不足，无法判断相对贵贱",
-      "cache_hit:stock_news_em:600406: 使用本地缓存数据",
       "600406:基本面数据缺失较多，需人工复核财务质量",
       "600406:估值数据不足，无法判断相对贵贱",
-      "cache_hit:stock_news_em:300750: 使用本地缓存数据",
       "300750:基本面数据缺失较多，需人工复核财务质量",
       "300750:估值数据不足，无法判断相对贵贱"
     ]
