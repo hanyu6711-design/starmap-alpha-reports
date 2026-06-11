@@ -1,6 +1,6 @@
 {
   "report_date": "2026-06-11",
-  "data_time": "2026-06-11 11:04:27",
+  "data_time": "2026-06-11 11:06:04",
   "market_summary": {
     "candidate_count": 12,
     "theme_count": 4
@@ -208,7 +208,25 @@
           "factor_consistency": 56.2,
           "risk_quality": 57.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 57.0,
+          "capital_flow": 50.92,
+          "technical_signal": 16.7,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 11.24,
+            "risk_events": 11.4,
+            "capital_flow": 7.64,
+            "technical_signal": 2.51
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 7,
@@ -625,7 +643,25 @@
           "factor_consistency": 50.76,
           "risk_quality": 61.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 61.0,
+          "capital_flow": 69.22,
+          "technical_signal": 68.4,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 10.15,
+            "risk_events": 12.2,
+            "capital_flow": 10.38,
+            "technical_signal": 10.26
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 8,
@@ -1033,7 +1069,25 @@
           "factor_consistency": 75.2,
           "risk_quality": 61.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 61.0,
+          "capital_flow": 58.75,
+          "technical_signal": 67.1,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 15.04,
+            "risk_events": 12.2,
+            "capital_flow": 8.81,
+            "technical_signal": 10.06
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 1,
@@ -1442,7 +1496,25 @@
           "factor_consistency": 33.49,
           "risk_quality": 25.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 25.0,
+          "capital_flow": 15.98,
+          "technical_signal": 61.1,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 6.7,
+            "risk_events": 5.0,
+            "capital_flow": 2.4,
+            "technical_signal": 9.16
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 2,
@@ -1872,7 +1944,25 @@
           "factor_consistency": 32.81,
           "risk_quality": 57.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 57.0,
+          "capital_flow": 7.23,
+          "technical_signal": 55.1,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 6.56,
+            "risk_events": 11.4,
+            "capital_flow": 1.08,
+            "technical_signal": 8.27
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 3,
@@ -2287,7 +2377,25 @@
           "factor_consistency": 76.99,
           "risk_quality": 57.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 57.0,
+          "capital_flow": 56.67,
+          "technical_signal": 71.1,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 15.4,
+            "risk_events": 11.4,
+            "capital_flow": 8.5,
+            "technical_signal": 10.66
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 4,
@@ -2696,7 +2804,25 @@
           "factor_consistency": 43.01,
           "risk_quality": 29.0,
           "score_stability": 82.0,
-          "missing_factor_rate": 0.0
+          "missing_factor_rate": 0.0,
+          "risk_events": 29.0,
+          "capital_flow": 7.23,
+          "technical_signal": 68.1,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 30.0,
+            "factor_consistency": 8.6,
+            "risk_events": 5.8,
+            "capital_flow": 1.08,
+            "technical_signal": 10.21
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": true,
         "rank": 6,
@@ -3124,7 +3250,25 @@
           "factor_consistency": 70.36,
           "risk_quality": 57.0,
           "score_stability": 42.0,
-          "missing_factor_rate": 0.3333
+          "missing_factor_rate": 0.3333,
+          "risk_events": 57.0,
+          "capital_flow": 46.75,
+          "technical_signal": 29.3,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 20.0,
+            "factor_consistency": 14.07,
+            "risk_events": 11.4,
+            "capital_flow": 7.01,
+            "technical_signal": 4.39
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": false,
         "rank": 12,
@@ -3517,7 +3661,25 @@
           "factor_consistency": 65.58,
           "risk_quality": 54.0,
           "score_stability": 42.0,
-          "missing_factor_rate": 0.3333
+          "missing_factor_rate": 0.3333,
+          "risk_events": 54.0,
+          "capital_flow": 46.75,
+          "technical_signal": 20.1,
+          "contribution_weights": {
+            "data_completeness": 0.3,
+            "factor_consistency": 0.2,
+            "risk_events": 0.2,
+            "capital_flow": 0.15,
+            "technical_signal": 0.15
+          },
+          "contributions": {
+            "data_completeness": 20.0,
+            "factor_consistency": 13.12,
+            "risk_events": 10.8,
+            "capital_flow": 7.01,
+            "technical_signal": 3.02
+          },
+          "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
         },
         "top10_eligible": false,
         "rank": 13,
@@ -3908,7 +4070,25 @@
         "factor_consistency": 75.2,
         "risk_quality": 61.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 61.0,
+        "capital_flow": 58.75,
+        "technical_signal": 67.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 15.04,
+          "risk_events": 12.2,
+          "capital_flow": 8.81,
+          "technical_signal": 10.06
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 1,
@@ -4317,7 +4497,25 @@
         "factor_consistency": 33.49,
         "risk_quality": 25.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 25.0,
+        "capital_flow": 15.98,
+        "technical_signal": 61.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 6.7,
+          "risk_events": 5.0,
+          "capital_flow": 2.4,
+          "technical_signal": 9.16
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 2,
@@ -4747,7 +4945,25 @@
         "factor_consistency": 32.81,
         "risk_quality": 57.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 57.0,
+        "capital_flow": 7.23,
+        "technical_signal": 55.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 6.56,
+          "risk_events": 11.4,
+          "capital_flow": 1.08,
+          "technical_signal": 8.27
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 3,
@@ -5160,7 +5376,25 @@
         "factor_consistency": 76.99,
         "risk_quality": 57.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 57.0,
+        "capital_flow": 56.67,
+        "technical_signal": 71.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 15.4,
+          "risk_events": 11.4,
+          "capital_flow": 8.5,
+          "technical_signal": 10.66
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 4,
@@ -5569,7 +5803,25 @@
         "factor_consistency": 71.12,
         "risk_quality": 57.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 57.0,
+        "capital_flow": 46.75,
+        "technical_signal": 61.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 14.22,
+          "risk_events": 11.4,
+          "capital_flow": 7.01,
+          "technical_signal": 9.16
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 5,
@@ -5976,7 +6228,25 @@
         "factor_consistency": 43.01,
         "risk_quality": 29.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 29.0,
+        "capital_flow": 7.23,
+        "technical_signal": 68.1,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 8.6,
+          "risk_events": 5.8,
+          "capital_flow": 1.08,
+          "technical_signal": 10.21
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 6,
@@ -6402,7 +6672,25 @@
         "factor_consistency": 56.2,
         "risk_quality": 57.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 57.0,
+        "capital_flow": 50.92,
+        "technical_signal": 16.7,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 11.24,
+          "risk_events": 11.4,
+          "capital_flow": 7.64,
+          "technical_signal": 2.51
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 7,
@@ -6819,7 +7107,25 @@
         "factor_consistency": 50.76,
         "risk_quality": 61.0,
         "score_stability": 82.0,
-        "missing_factor_rate": 0.0
+        "missing_factor_rate": 0.0,
+        "risk_events": 61.0,
+        "capital_flow": 69.22,
+        "technical_signal": 68.4,
+        "contribution_weights": {
+          "data_completeness": 0.3,
+          "factor_consistency": 0.2,
+          "risk_events": 0.2,
+          "capital_flow": 0.15,
+          "technical_signal": 0.15
+        },
+        "contributions": {
+          "data_completeness": 30.0,
+          "factor_consistency": 10.15,
+          "risk_events": 12.2,
+          "capital_flow": 10.38,
+          "technical_signal": 10.26
+        },
+        "formula": "数据完整度30% + 因子一致性20% + 风险事件20% + 资金面15% + 技术面15%"
       },
       "top10_eligible": true,
       "rank": 8,
