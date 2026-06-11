@@ -1,13 +1,13 @@
-﻿code,name,sector_theme,technical_score,fundamental_score,valuation_score,capital_flow_score,news_risk_score,sector_heat_score,total_score,ranking_score,ranking_penalty,decision_confidence,available_factor_count,missing_factor_count,score_confidence,top10_eligible,missing_factors,rank
-300223,北京君正,存储芯片,67.1,81.0,55.0,58.75,61.0,85.0,71.2,71.2,0.0,82,6,0,高,True,[],1
-603986,兆易创新,存储芯片,61.1,100.0,45.0,15.98,25.0,85.0,66.87,66.87,0.0,63,6,0,高,True,[],2
-688008,澜起科技,存储芯片,55.1,100.0,35.0,7.23,57.0,85.0,64.6,64.6,0.0,71,6,0,高,True,[],3
-002371,北方华创,先进封装,63.1,62.0,45.0,56.67,57.0,80.0,62.54,62.54,0.0,82,6,0,高,True,[],4
-600584,长电科技,存储芯片,61.1,61.0,45.0,46.75,57.0,85.0,61.8,61.8,0.0,80,6,0,高,True,[],5
-002156,通富微电,先进封装,68.1,73.0,55.0,7.23,29.0,80.0,61.7,61.7,0.0,66,6,0,高,True,[],6
-688041,海光信息,AI算力,34.7,81.0,35.0,50.92,57.0,85.0,59.12,59.12,0.0,77,6,0,高,True,[],7
-000063,中兴通讯,AI算力,68.4,14.0,71.0,69.22,61.0,85.0,58.22,58.22,0.0,76,6,0,高,True,[],8
-300308,中际旭创,AI算力,,100.0,,15.98,46.0,85.0,65.0,25.0,40.0,48,4,2,低,False,"['valuation_score', 'technical_score']",11
-600905,三峡能源,能源电力,47.3,,,46.75,57.0,80.0,58.92,24.92,34.0,49,4,2,低,False,"['fundamental_score', 'valuation_score']",12
-300750,宁德时代,能源电力,38.1,,,46.75,54.0,80.0,54.83,20.83,34.0,49,4,2,低,False,"['fundamental_score', 'valuation_score']",13
-600406,国电南瑞,AI算力,23.6,,,8.42,57.0,85.0,44.32,10.32,34.0,49,4,2,低,False,"['fundamental_score', 'valuation_score']",14
+﻿code,name,sector_theme,technical_score,fundamental_score,valuation_score,capital_flow_score,news_risk_score,sector_heat_score,total_score,ranking_score,ranking_penalty,decision_confidence,signal_grade,estimated_win_rate,position_suggestion,available_factor_count,missing_factor_count,score_confidence,top10_eligible,missing_factors,rank
+300223,北京君正,存储芯片,67.1,81.0,55.0,77.54,85.0,85.0,74.28,74.28,0.0,85,A,14,15%-25%,6,0,高,True,[],1
+603986,兆易创新,存储芯片,61.1,100.0,45.0,39.5,57.0,85.0,70.83,70.83,0.0,65,C,25,0%-10%,6,0,高,True,[],2
+688008,澜起科技,存储芯片,55.1,100.0,35.0,32.17,85.0,85.0,68.49,68.49,0.0,69,C,12,0%-10%,6,0,高,True,[],3
+002156,通富微电,先进封装,68.1,73.0,55.0,34.62,57.0,80.0,65.84,65.84,0.0,68,C,3,0%-10%,6,0,高,True,[],4
+002371,北方华创,先进封装,63.1,62.0,45.0,35.98,85.0,80.0,61.87,61.87,0.0,74,C,11,0%-10%,6,0,高,True,[],5
+600584,长电科技,存储芯片,61.1,61.0,45.0,32.84,85.0,85.0,61.81,61.81,0.0,73,C,43,0%-10%,6,0,高,True,[],6
+000063,中兴通讯,AI算力,68.4,14.0,71.0,82.0,85.0,85.0,60.7,60.7,0.0,79,B,26,5%-10%,6,0,高,True,[],7
+688041,海光信息,AI算力,34.7,81.0,35.0,37.27,85.0,85.0,59.15,59.15,0.0,65,D,38,0%,6,0,高,True,[],8
+600905,三峡能源,能源电力,47.3,,,29.6,85.0,80.0,58.39,24.39,34.0,49,D,36,0%,4,2,低,False,"['fundamental_score', 'valuation_score']",11
+300750,宁德时代,能源电力,38.1,,,38.8,85.0,80.0,56.09,22.09,34.0,49,D,41,0%,4,2,低,False,"['fundamental_score', 'valuation_score']",12
+300308,中际旭创,AI算力,,100.0,,,85.0,85.0,65.0,18.0,47.0,49,D,0,0%,3,3,低,False,"['valuation_score', 'technical_score', 'capital_flow_score']",13
+600406,国电南瑞,AI算力,23.6,,,25.68,85.0,85.0,49.53,15.53,34.0,48,D,92,0%,4,2,低,False,"['fundamental_score', 'valuation_score']",14
