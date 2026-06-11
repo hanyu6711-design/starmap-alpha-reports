@@ -1,7 +1,7 @@
 ﻿code,name,sector_theme,technical_score,fundamental_score,valuation_score,capital_flow_score,news_risk_score,sector_heat_score,total_score,ranking_score,ranking_penalty,decision_confidence,signal_grade,estimated_win_rate,position_suggestion,available_factor_count,missing_factor_count,score_confidence,top10_eligible,missing_factors,rank
 300223,北京君正,存储芯片,67.1,81.0,55.0,77.54,85.0,85.0,74.28,74.28,0.0,85,A,14,15%-25%,6,0,高,True,[],1
-000063,中兴通讯,AI算力,68.4,14.0,71.0,82.0,85.0,85.0,60.7,60.7,0.0,79,B,26,5%-10%,6,0,高,True,[],2
-300308,中际旭创,AI算力,71.1,100.0,45.0,42.16,85.0,85.0,74.99,74.99,0.0,75,C,18,0%-5%,6,0,高,True,[],3
+300308,中际旭创,AI算力,71.1,100.0,45.0,42.16,85.0,85.0,74.99,74.99,0.0,75,B,18,5%-10%,6,0,高,True,[],2
+000063,中兴通讯,AI算力,68.4,14.0,71.0,82.0,85.0,85.0,60.7,60.7,0.0,79,B,26,5%-10%,6,0,高,True,[],3
 603986,兆易创新,存储芯片,61.1,100.0,45.0,39.5,57.0,85.0,70.83,70.83,0.0,65,C,25,0%-5%,6,0,高,True,[],4
 688008,澜起科技,存储芯片,55.1,100.0,35.0,32.17,85.0,85.0,68.49,68.49,0.0,69,C,12,0%-5%,6,0,高,True,[],5
 002156,通富微电,先进封装,68.1,73.0,55.0,34.62,57.0,80.0,65.84,65.84,0.0,68,C,3,0%-5%,6,0,高,True,[],6
