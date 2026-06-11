@@ -1,6 +1,6 @@
 {
   "report_date": "2026-06-11",
-  "data_time": "2026-06-11 11:03:24",
+  "data_time": "2026-06-11 11:04:27",
   "market_summary": {
     "candidate_count": 12,
     "theme_count": 4
@@ -660,7 +660,7 @@
           "target_1": "43.75",
           "target_2": "46.82",
           "estimated_win_rate": "26%",
-          "position_suggestion": "0%",
+          "position_suggestion": "5%-10%",
           "entry_reason": "ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近；成交密集区提供成本支撑",
           "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
           "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=41.30，60日前高=41.30，ATR14=2.28。",
@@ -741,8 +741,8 @@
             "horizon_days": 20,
             "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR"
           },
-          "position_suggestion": "0%",
-          "position_reason": "D级回避信号，不建议建仓。",
+          "position_suggestion": "5%-10%",
+          "position_reason": "B级趋势信号但历史胜率证据偏弱，仅适合小仓位试错。",
           "trade_plan": {
             "signal_grade": "B",
             "entry_zone": "36.11-39.94",
@@ -750,12 +750,12 @@
             "target1": "43.75",
             "target2": "46.82",
             "estimated_win_rate": "26%",
-            "position_suggestion": "0%"
+            "position_suggestion": "5%-10%"
           }
         },
         "signal_grade": "B",
         "estimated_win_rate": 26,
-        "position_suggestion": "0%",
+        "position_suggestion": "5%-10%",
         "target1": "43.75",
         "target2": "46.82",
         "entry_zone": "36.11-39.94",
@@ -1068,7 +1068,7 @@
           "target_1": "202.42",
           "target_2": "230.77",
           "estimated_win_rate": "14%",
-          "position_suggestion": "0%",
+          "position_suggestion": "5%-10%",
           "entry_reason": "ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近；成交密集区提供成本支撑",
           "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
           "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=175.98，60日前高=175.98，ATR14=14.03。",
@@ -1149,8 +1149,8 @@
             "horizon_days": 20,
             "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR"
           },
-          "position_suggestion": "0%",
-          "position_reason": "D级回避信号，不建议建仓。",
+          "position_suggestion": "5%-10%",
+          "position_reason": "B级趋势信号但历史胜率证据偏弱，仅适合小仓位试错。",
           "trade_plan": {
             "signal_grade": "B",
             "entry_zone": "140.74-164.80",
@@ -1158,12 +1158,12 @@
             "target1": "202.42",
             "target2": "230.77",
             "estimated_win_rate": "14%",
-            "position_suggestion": "0%"
+            "position_suggestion": "5%-10%"
           }
         },
         "signal_grade": "B",
         "estimated_win_rate": 14,
-        "position_suggestion": "0%",
+        "position_suggestion": "5%-10%",
         "target1": "202.42",
         "target2": "230.77",
         "entry_zone": "140.74-164.80",
@@ -3943,7 +3943,7 @@
         "target_1": "202.42",
         "target_2": "230.77",
         "estimated_win_rate": "14%",
-        "position_suggestion": "0%",
+        "position_suggestion": "5%-10%",
         "entry_reason": "ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近；成交密集区提供成本支撑",
         "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
         "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=175.98，60日前高=175.98，ATR14=14.03。",
@@ -4024,8 +4024,8 @@
           "horizon_days": 20,
           "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR"
         },
-        "position_suggestion": "0%",
-        "position_reason": "D级回避信号，不建议建仓。",
+        "position_suggestion": "5%-10%",
+        "position_reason": "B级趋势信号但历史胜率证据偏弱，仅适合小仓位试错。",
         "trade_plan": {
           "signal_grade": "B",
           "entry_zone": "140.74-164.80",
@@ -4033,12 +4033,12 @@
           "target1": "202.42",
           "target2": "230.77",
           "estimated_win_rate": "14%",
-          "position_suggestion": "0%"
+          "position_suggestion": "5%-10%"
         }
       },
       "signal_grade": "B",
       "estimated_win_rate": 14,
-      "position_suggestion": "0%",
+      "position_suggestion": "5%-10%",
       "target1": "202.42",
       "target2": "230.77",
       "entry_zone": "140.74-164.80",
@@ -5604,7 +5604,7 @@
         "target_1": "103.76",
         "target_2": "122.74",
         "estimated_win_rate": "43%",
-        "position_suggestion": "0%",
+        "position_suggestion": "5%-10%",
         "entry_reason": "当前价格接近 MA20；ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近；成交密集区提供成本支撑",
         "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
         "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=94.90，60日前高=94.90，ATR14=7.21。",
@@ -5685,8 +5685,8 @@
           "horizon_days": 20,
           "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR"
         },
-        "position_suggestion": "0%",
-        "position_reason": "D级回避信号，不建议建仓。",
+        "position_suggestion": "5%-10%",
+        "position_reason": "B级趋势信号但历史胜率证据偏弱，仅适合小仓位试错。",
         "trade_plan": {
           "signal_grade": "B",
           "entry_zone": "69.91-79.11",
@@ -5694,12 +5694,12 @@
           "target1": "103.76",
           "target2": "122.74",
           "estimated_win_rate": "43%",
-          "position_suggestion": "0%"
+          "position_suggestion": "5%-10%"
         }
       },
       "signal_grade": "B",
       "estimated_win_rate": 43,
-      "position_suggestion": "0%",
+      "position_suggestion": "5%-10%",
       "target1": "103.76",
       "target2": "122.74",
       "entry_zone": "69.91-79.11",
@@ -6854,7 +6854,7 @@
         "target_1": "43.75",
         "target_2": "46.82",
         "estimated_win_rate": "26%",
-        "position_suggestion": "0%",
+        "position_suggestion": "5%-10%",
         "entry_reason": "ATR 1倍范围内靠近支撑；周线支撑位位于买入区附近；成交密集区提供成本支撑",
         "stop_loss_reason": "跌破 MA60 趋势支撑，并预留 ATR14 的0.25倍噪音空间。",
         "target_reason": "目标1取20日前高/ATR扩展/1.2R较高值；目标2取60日前高/ATR扩展/2R较高值。20日前高=41.30，60日前高=41.30，ATR14=2.28。",
@@ -6935,8 +6935,8 @@
           "horizon_days": 20,
           "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR"
         },
-        "position_suggestion": "0%",
-        "position_reason": "D级回避信号，不建议建仓。",
+        "position_suggestion": "5%-10%",
+        "position_reason": "B级趋势信号但历史胜率证据偏弱，仅适合小仓位试错。",
         "trade_plan": {
           "signal_grade": "B",
           "entry_zone": "36.11-39.94",
@@ -6944,12 +6944,12 @@
           "target1": "43.75",
           "target2": "46.82",
           "estimated_win_rate": "26%",
-          "position_suggestion": "0%"
+          "position_suggestion": "5%-10%"
         }
       },
       "signal_grade": "B",
       "estimated_win_rate": 26,
-      "position_suggestion": "0%",
+      "position_suggestion": "5%-10%",
       "target1": "43.75",
       "target2": "46.82",
       "entry_zone": "36.11-39.94",
