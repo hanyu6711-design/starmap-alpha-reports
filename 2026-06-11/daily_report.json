@@ -1,6 +1,6 @@
 {
   "report_date": "2026-06-11",
-  "data_time": "2026-06-11 12:09:15",
+  "data_time": "2026-06-11 12:10:54",
   "market_summary": {
     "candidate_count": 12,
     "theme_count": 4
@@ -7421,53 +7421,9 @@
     "note": "已保存推荐快照；胜率需等待后续交易日收益回填，当前不使用未来函数。"
   },
   "data_quality": {
-    "missing_fields": [
-      "fundamental.300750.debt_ratio",
-      "fundamental.300750.gross_margin",
-      "fundamental.300750.net_margin",
-      "fundamental.300750.net_profit_yoy",
-      "fundamental.300750.operating_cash_flow",
-      "fundamental.300750.rd_expense_ratio",
-      "fundamental.300750.revenue_yoy",
-      "fundamental.300750.roe",
-      "fundamental.600406.debt_ratio",
-      "fundamental.600406.gross_margin",
-      "fundamental.600406.net_margin",
-      "fundamental.600406.net_profit_yoy",
-      "fundamental.600406.operating_cash_flow",
-      "fundamental.600406.rd_expense_ratio",
-      "fundamental.600406.revenue_yoy",
-      "fundamental.600406.roe",
-      "fundamental.600905.debt_ratio",
-      "fundamental.600905.gross_margin",
-      "fundamental.600905.net_margin",
-      "fundamental.600905.net_profit_yoy",
-      "fundamental.600905.operating_cash_flow",
-      "fundamental.600905.rd_expense_ratio",
-      "fundamental.600905.revenue_yoy",
-      "fundamental.600905.roe",
-      "valuation.300750.market_cap",
-      "valuation.300750.pb",
-      "valuation.300750.pe_ttm",
-      "valuation.300750.ps",
-      "valuation.600406.market_cap",
-      "valuation.600406.pb",
-      "valuation.600406.pe_ttm",
-      "valuation.600406.ps",
-      "valuation.600905.market_cap",
-      "valuation.600905.pb",
-      "valuation.600905.pe_ttm",
-      "valuation.600905.ps"
-    ],
+    "missing_fields": [],
     "failed_sources": [],
-    "warnings": [
-      "600905:基本面数据缺失较多，需人工复核财务质量",
-      "600905:估值数据不足，无法判断相对贵贱",
-      "600406:基本面数据缺失较多，需人工复核财务质量",
-      "600406:估值数据不足，无法判断相对贵贱",
-      "300750:基本面数据缺失较多，需人工复核财务质量",
-      "300750:估值数据不足，无法判断相对贵贱"
-    ]
+    "warnings": []
   },
   "methodology": {
     "factor_weights": {
