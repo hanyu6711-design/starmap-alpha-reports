@@ -1,9 +1,9 @@
 {
-  "report_date": "2026-06-13",
+  "report_date": "2026-06-15",
   "market_style": {
     "market_style": "震荡风格",
     "confidence": "中",
-    "market_temperature": 54.86,
+    "market_temperature": 54.23,
     "style_reason": "强弱信号交织，市场以区间震荡为主。",
     "reasons": [
       "强弱信号交织，市场以区间震荡为主。",
@@ -24,7 +24,7 @@
       {
         "sector_theme": "存储芯片",
         "candidate_count": 4,
-        "avg_total_score": 61.34,
+        "avg_total_score": 61.13,
         "avg_5d_proxy": 6.3,
         "avg_10d_proxy": 6.3,
         "avg_20d_proxy": 11.1,
@@ -172,12 +172,12 @@
             "source": "eastmoney_individual_fund_flow:300308",
             "status": "fail",
             "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 2.8
+            "elapsed_seconds": 2.28
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
@@ -586,7 +586,7 @@
       "technical_score": 61.1,
       "fundamental_score": 100.0,
       "valuation_score": 45.0,
-      "capital_flow_score": 64.25,
+      "capital_flow_score": 39.5,
       "news_risk_score": 57.0,
       "sector_heat_score": 85.0,
       "technical_detail": {
@@ -673,30 +673,29 @@
         "super_order_flow_5d": null,
         "super_order_score": null,
         "main_fund_score": 50.0,
-        "northbound_score": 65.0,
+        "northbound_score": null,
         "lhb_institution_net_buy": null,
         "lhb_institution_score": null,
-        "institution_score": 57.5,
-        "capital_flow_source": "missing",
-        "capital_flow_tier": "中性",
+        "institution_score": null,
+        "capital_flow_source": "volume_amount_proxy",
+        "capital_flow_tier": "资金偏弱",
         "source_status": [
           {
             "source": "eastmoney_individual_fund_flow:603986",
             "status": "fail",
             "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 3.0
+            "elapsed_seconds": 2.29
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
             "source": "eastmoney_northbound_holding:603986",
-            "status": "success",
-            "rows": 281,
-            "elapsed_seconds": 4.16
+            "status": "timeout",
+            "elapsed_seconds": 5.01
           },
           {
             "source": "tonghuashun_individual_fund_flow_rank:5日排行",
@@ -717,17 +716,16 @@
             "reused": true
           }
         ],
-        "successful_real_sources": [
-          "eastmoney_northbound_holding:603986"
-        ],
+        "successful_real_sources": [],
         "failed_real_sources": [
           "eastmoney_individual_fund_flow:603986",
           "eastmoney_main_fund_flow_rank:全部股票",
+          "eastmoney_northbound_holding:603986",
           "tonghuashun_individual_fund_flow_rank:5日排行",
           "tonghuashun_big_deal",
           "sina_lhb_institution"
         ],
-        "real_source_count": 1,
+        "real_source_count": 0,
         "turnover_rate": null,
         "volume_ratio": 0.7438667501135697,
         "volume_ratio_5d": 0.8240149314333689,
@@ -735,12 +733,12 @@
         "amount": 21005134150.0,
         "amount_change_5d": 0.8285202883818961,
         "amount_change_20d": 0.8095037739191486,
-        "northbound_change": 283120.0,
+        "northbound_change": null,
         "sector_flow_rank": null,
         "sector_flow_strength": null,
-        "capital_flow_comment": "北向持仓边际改善",
-        "proxy_mode": false,
-        "capital_weight_multiplier": 1.0
+        "capital_flow_comment": "日常稳定模式：使用成交额变化、量比、换手率做资金面替代评分",
+        "proxy_mode": true,
+        "capital_weight_multiplier": 0.5
       },
       "news_risk_detail": {
         "news_count": 10,
@@ -884,7 +882,7 @@
           "horizon_days": 20,
           "success_definition": "20日内上涨达到1.5倍ATR且未先跌破1倍ATR",
           "raw_estimated_win_rate": 25,
-          "confidence_cap": 75,
+          "confidence_cap": 64,
           "confidence_capped": false,
           "constrained_success_rate": 25,
           "constraint_reason": "预计胜率受数据完整度、决策可信度、风险事件、资金面和技术面约束，展示值不得高于 decision_confidence + 10%。"
@@ -925,7 +923,6 @@
         "经营现金流为正，盈利兑现度较好",
         "毛利率维持在25%以上",
         "资产负债率适中",
-        "北向持仓边际改善",
         "新闻与公告数据较完整",
         "日线站上 MA20",
         "日线站上 MA60",
@@ -952,14 +949,14 @@
       "capital_flow_available": true,
       "news_risk_available": true,
       "sector_heat_available": true,
-      "total_score": 68.3,
+      "total_score": 67.47,
       "normalized_weights": {
-        "sector_heat_score": 0.2,
-        "fundamental_score": 0.25,
-        "valuation_score": 0.15,
-        "technical_score": 0.25,
-        "capital_flow_score": 0.1,
-        "news_risk_score": 0.05
+        "sector_heat_score": 0.210526,
+        "fundamental_score": 0.263158,
+        "valuation_score": 0.157895,
+        "technical_score": 0.263158,
+        "capital_flow_score": 0.052632,
+        "news_risk_score": 0.052632
       },
       "available_factor_count": 6,
       "missing_factor_count": 0,
@@ -980,43 +977,43 @@
         ],
         "logic_conflict": false
       },
-      "decision_confidence": 65,
-      "data_confidence": 100.0,
-      "model_confidence": 59.26,
+      "decision_confidence": 54,
+      "data_confidence": 80.0,
+      "model_confidence": 50.29,
       "historical_win_rate": 25,
       "decision_confidence_detail": {
-        "data_confidence": 100.0,
-        "model_confidence": 59.26,
+        "data_confidence": 80.0,
+        "model_confidence": 50.29,
         "historical_win_rate": 25,
-        "decision_confidence": 65,
+        "decision_confidence": 54,
         "sub_scores": {
-          "factor_consistency": 59.62,
+          "factor_consistency": 52.87,
           "risk_events": 45.0,
-          "capital_flow": 64.25,
-          "technical_signal": 69.1
+          "capital_flow": 39.5,
+          "technical_signal": 61.1
         },
         "formula": "data_confidence35% + model_confidence40% + historical_win_rate25%，并受ROE/估值/缺失/历史胜率上限约束",
-        "data_completeness": 100.0,
-        "factor_consistency": 59.62,
+        "data_completeness": 80.0,
+        "factor_consistency": 52.87,
         "risk_events": 45.0,
-        "capital_flow": 64.25,
-        "technical_signal": 69.1,
+        "capital_flow": 39.5,
+        "technical_signal": 61.1,
         "contributions": {
-          "data_confidence": 35.0,
-          "model_confidence": 23.7,
+          "data_confidence": 28.0,
+          "model_confidence": 20.12,
           "historical_win_rate": 6.25,
-          "data_completeness": 35.0,
-          "factor_consistency": 7.15,
+          "data_completeness": 28.0,
+          "factor_consistency": 6.34,
           "risk_events": 4.5,
-          "capital_flow": 5.14,
-          "technical_signal": 6.91
+          "capital_flow": 3.16,
+          "technical_signal": 6.11
         },
         "risk_quality": 45.0,
         "score_stability": 82.0,
         "missing_factor_rate": 0.0
       },
-      "ranking_penalty": 0.0,
-      "ranking_score": 69.18,
+      "ranking_penalty": 4.0,
+      "ranking_score": 63.62,
       "top10_eligible": true,
       "agent_reviews": {
         "fundamental_agent": {
@@ -1044,8 +1041,8 @@
           ]
         },
         "capital_flow_agent": {
-          "decision": "中性",
-          "reason": "资金流数据不足或信号不明确，按中性处理。"
+          "decision": "看空",
+          "reason": "资金面评分偏弱，需警惕放量下跌或资金持续流出。"
         },
         "market_style_agent": {
           "decision": "看多",
@@ -1057,8 +1054,8 @@
         },
         "final_committee_agent": {
           "bullish_votes": 3,
-          "bearish_votes": 1,
-          "neutral_votes": 3,
+          "bearish_votes": 2,
+          "neutral_votes": 2,
           "disagreement_points": [
             "基本面、技术面、估值或消息面存在多空分歧。",
             "投委会结论按统一决策树同步为观察。"
@@ -1072,7 +1069,7 @@
           ]
         }
       },
-      "total_score_before_valuation_penalty": 73.3,
+      "total_score_before_valuation_penalty": 72.47,
       "valuation_total_penalty": 5.0,
       "total_score_uncapped": null,
       "decision_reason": "观察：价格偏离均线过大或指标过热",
@@ -1087,7 +1084,7 @@
         "name": "兆易创新",
         "code": "603986",
         "recommendation_grade": "C",
-        "decision_confidence": 65,
+        "decision_confidence": 54,
         "entry_zone": "444.21-514.92",
         "stop_loss": "334.66",
         "targets": "699.51 / 832.18",
@@ -1214,12 +1211,12 @@
             "source": "eastmoney_individual_fund_flow:300223",
             "status": "fail",
             "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 3.93
+            "elapsed_seconds": 2.0
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
@@ -1724,12 +1721,12 @@
             "source": "eastmoney_individual_fund_flow:002156",
             "status": "fail",
             "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 2.98
+            "elapsed_seconds": 2.16
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
@@ -2245,14 +2242,13 @@
         "source_status": [
           {
             "source": "eastmoney_individual_fund_flow:688008",
-            "status": "fail",
-            "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 2.81
+            "status": "timeout",
+            "elapsed_seconds": 5.01
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
@@ -2757,14 +2753,13 @@
         "source_status": [
           {
             "source": "eastmoney_individual_fund_flow:002371",
-            "status": "fail",
-            "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 4.33
+            "status": "timeout",
+            "elapsed_seconds": 5.01
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
@@ -3274,12 +3269,12 @@
             "source": "eastmoney_individual_fund_flow:600584",
             "status": "fail",
             "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 2.01
+            "elapsed_seconds": 2.26
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
@@ -3785,13 +3780,14 @@
         "source_status": [
           {
             "source": "eastmoney_individual_fund_flow:000063",
-            "status": "timeout",
-            "elapsed_seconds": 5.01
+            "status": "fail",
+            "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
+            "elapsed_seconds": 2.52
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02
+            "elapsed_seconds": 5.01
           },
           {
             "source": "eastmoney_northbound_holding:000063",
@@ -4292,19 +4288,19 @@
             "source": "eastmoney_individual_fund_flow:688041",
             "status": "fail",
             "error": "urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-            "elapsed_seconds": 3.73
+            "elapsed_seconds": 2.24
           },
           {
             "source": "eastmoney_main_fund_flow_rank:全部股票",
             "status": "timeout",
-            "elapsed_seconds": 5.02,
+            "elapsed_seconds": 5.01,
             "reused": true
           },
           {
             "source": "eastmoney_northbound_holding:688041",
             "status": "success",
             "rows": 207,
-            "elapsed_seconds": 4.04
+            "elapsed_seconds": 2.47
           },
           {
             "source": "tonghuashun_individual_fund_flow_rank:5日排行",
@@ -4770,13 +4766,15 @@
       "eastmoney_northbound_holding:300750",
       "eastmoney_northbound_holding:600406",
       "eastmoney_northbound_holding:600584",
+      "eastmoney_northbound_holding:600905",
+      "eastmoney_northbound_holding:603986",
       "eastmoney_northbound_holding:688008",
       "sina_lhb_institution",
       "tonghuashun_big_deal",
       "tonghuashun_individual_fund_flow_rank:5日排行"
     ],
     "warnings": [
-      "eastmoney_individual_fund_flow:000063: 超过 5 秒未返回，切换下一个资金源",
+      "eastmoney_individual_fund_flow:000063: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
       "eastmoney_main_fund_flow_rank:全部股票: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_northbound_holding:000063: 超过 5 秒未返回，切换下一个资金源",
       "tonghuashun_individual_fund_flow_rank:5日排行: 超过 5 秒未返回，切换下一个资金源",
@@ -4786,20 +4784,22 @@
       "eastmoney_northbound_holding:300308: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_individual_fund_flow:688041: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
       "eastmoney_individual_fund_flow:603986: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
+      "eastmoney_northbound_holding:603986: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_individual_fund_flow:300223: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
       "eastmoney_northbound_holding:300223: 超过 5 秒未返回，切换下一个资金源",
-      "eastmoney_individual_fund_flow:688008: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
+      "eastmoney_individual_fund_flow:688008: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_northbound_holding:688008: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_individual_fund_flow:002156: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
       "eastmoney_northbound_holding:002156: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_individual_fund_flow:600584: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
       "eastmoney_northbound_holding:600584: 超过 5 秒未返回，切换下一个资金源",
-      "eastmoney_individual_fund_flow:002371: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
+      "eastmoney_individual_fund_flow:002371: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_northbound_holding:002371: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_individual_fund_flow:600905: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
-      "eastmoney_individual_fund_flow:600406: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
+      "eastmoney_northbound_holding:600905: 超过 5 秒未返回，切换下一个资金源",
+      "eastmoney_individual_fund_flow:600406: 超过 5 秒未返回，切换下一个资金源",
       "eastmoney_northbound_holding:600406: 超过 5 秒未返回，切换下一个资金源",
-      "eastmoney_individual_fund_flow:300750: 超过 5 秒未返回，切换下一个资金源",
+      "eastmoney_individual_fund_flow:300750: urllib3.exceptions.SSLError: [SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2559)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/requests/adapters.py\", line 696, in send\n    resp = conn.urlopen(\n           ^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/connectionpool.py\", line 842, in urlopen\n    retries = retries.increment(\n              ^^^^^^^^^^^^^^^^^^\n  File \"/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/urllib3/util/retry.py\", line 543, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded ",
       "eastmoney_northbound_holding:300750: 超过 5 秒未返回，切换下一个资金源"
     ]
   }
